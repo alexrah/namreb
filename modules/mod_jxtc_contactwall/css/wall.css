@@ -1,0 +1,227 @@
+/*
+	Copyright (C) 2009,2010  Monev Software LLC.
+
+	All Rights Reserved.
+
+	http://www-joomlaxtc.com
+*/
+
+.popuphover{
+  cursor:pointer;
+}
+
+.jxtcpopup{
+  position:absolute;
+  float:left;
+  top:0;
+  left:0;
+  margin:0px auto 0px auto;
+  padding:5px;
+  z-index:99999;
+  border:8px solid #d1d1d1;
+  background: #d1d1d1;
+}
+
+.jxtcinner{
+  width:auto;
+}
+
+.jxtcpopupclose{
+  position:absolute;
+  width:30px;
+  height:30px;
+  margin:0;
+  padding:0px;
+  top:-25px;
+  right:0px;
+  cursor:pointer;
+  background: url(../images/closebox.png) no-repeat;
+}
+
+.jxtcpopupdrag{
+  position:absolute;
+  width:30px;
+  height:30px;
+  margin:0;
+  padding:0px;
+  top:-25px;
+  right:35px;
+  cursor:pointer;
+  background: url(../images/movebox.png) no-repeat;
+}
+
+.tip{
+	display:none;
+}
+
+.pop{
+	display:none;
+	cursor:pointer;
+}
+@keyframes shake{
+0% { transform: translate(2px, 1px) rotate(0deg); }
+10% { transform: translate(-1px, -2px) rotate(-1deg); }
+20% { transform: translate(-3px, 0px) rotate(1deg); }
+30% { transform: translate(0px, 2px) rotate(0deg); }
+40% { transform: translate(1px, -1px) rotate(1deg); }
+50% { transform: translate(-1px, 2px) rotate(-1deg); }
+60% { transform: translate(-3px, 1px) rotate(0deg); }
+70% { transform: translate(2px, 1px) rotate(-1deg); }
+80% { transform: translate(-1px, -1px) rotate(1deg); }
+90% { transform: translate(2px, 2px) rotate(0deg); }
+100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+@-moz-keyframes shake{
+0% { -moz-transform: translate(2px, 1px) rotate(0deg); }
+10% { -moz-transform: translate(-1px, -2px) rotate(-1deg); }
+20% { -moz-transform: translate(-3px, 0px) rotate(1deg); }
+30% { -moz-transform: translate(0px, 2px) rotate(0deg); }
+40% { -moz-transform: translate(1px, -1px) rotate(1deg); }
+50% { -moz-transform: translate(-1px, 2px) rotate(-1deg); }
+60% { -moz-transform: translate(-3px, 1px) rotate(0deg); }
+70% { -moz-transform: translate(2px, 1px) rotate(-1deg); }
+80% { -moz-transform: translate(-1px, -1px) rotate(1deg); }
+90% { -moz-transform: translate(2px, 2px) rotate(0deg); }
+100% { -moz-transform: translate(1px, -2px) rotate(-1deg); }
+}
+@-webkit-keyframes shake {
+0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+.shake{display:block;}
+.shake:hover,
+.shake:focus{
+animation-name: shake;
+animation-duration: 0.8s;
+transform-origin:50% 50%;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+-moz-animation-name: shake;
+-moz-animation-duration: 0.8s;
+-moz-transform-origin:50% 50%;
+-moz-animation-iteration-count: infinite;
+-moz-animation-timing-function: linear;
+-webkit-animation-name: shake;
+-webkit-animation-duration: 0.8s;
+-webkit-transform-origin:50% 50%;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+}
+
+.animated {
+  -webkit-animation-fill-mode: fowards;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: 0.5s ease;
+  -moz-animation: 0.5s ease;
+  -ms-animation: 0.5s ease;
+  -o-animation: 0.5s ease;
+  animation: 0.5s ease;
+}
+
+.animated.hinge {
+  -webkit-animation: 2s ease;
+  -moz-animation: 2s ease;
+  -ms-animation: 2s ease;
+  -o-animation: 2s ease;
+  animation: 2s ease;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@-webkit-keyframes pulse {
+    0% { -webkit-transform: scale(1); } 
+  50% { -webkit-transform: scale(1.5); }
+    100% { -webkit-transform: scale(1); }
+}
+@-moz-keyframes pulse {
+    0% { -moz-transform: scale(1); }  
+  50% { -moz-transform: scale(1.5); }
+    100% { -moz-transform: scale(1); }
+}
+@-ms-keyframes pulse {
+    0% { -ms-transform: scale(1); } 
+  50% { -ms-transform: scale(1.5); }
+    100% { -ms-transform: scale(1); }
+}
+@-o-keyframes pulse {
+    0% { -o-transform: scale(1); }  
+  50% { -o-transform: scale(1.5); }
+    100% { -o-transform: scale(1); }
+}
+@keyframes pulse {
+    0% { transform: scale(1); } 
+  50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+}
+
+.pulse:hover{
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -ms-animation-name: pulse;
+  -o-animation-name: pulse;
+  animation-name: pulse;
+}
+
+.spinner {-webkit-transition:All 0.642s ease;-moz-transition:All 0.642s ease;-o-transition:All 0.642s ease; -webkit-transform:  rotate(360deg) scale(1.0) skew(180deg) translate(4px);-moz-transform:  rotate(360deg) scale(1.0) skew(180deg) translate(4px);-o-transform:  rotate(360deg) scale(1.0) skew(180deg) translate(4px);}.spinner:hover{-webkit-transform:  rotate(0deg) scale(0.941) skew(180deg) translate(4px);-moz-transform:  rotate(0deg) scale(0.941) skew(180deg) translate(4px);-o-transform:  rotate(0deg) scale(0.941) skew(180deg) translate(4px);}
+
+.prevbutton, .nextbutton {
+	margin:0;
+	cursor:pointer
+}
+
+/*semantic*/
+.wallview {
+	display:block;
+	height:60px;
+	background:url(../images/spin.gif) center center no-repeat;
+	overflow:hidden;
+}
+.wallslider {
+	display:table;
+	border-collapse:collapse;
+	position:relative;
+	visibility:hidden;
+}
+.wallsliderrow {
+	display:table-row;
+}
+.wallslidercell {
+	display:table-cell;
+	width:auto;
+	height:auto;
+	vertical-align:top;
+	text-align:left;
+}
+
+.wallfloat {
+	float:left;
+}
+.wallfloat.lastcol {
+	clear:right;
+}
+.wallpage {
+	display:table;
+	border-collapse:collapse;
+	width:100%;
+	height:100%;
+}
+.wallrow {
+	display:table-row;
+}
+.wallelement {
+	display:table-cell;
+	vertical-align:top;
+/*	text-align:left;*/
+}

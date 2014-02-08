@@ -1,0 +1,259 @@
+/*
+Template Name: Motif XTC
+Template URI: http://www.joomlaxtc.com
+Description: Motif XTC Joomla 2.5
+Version: 1.0
+Author: Monev Software LLC
+Author URI: http://www.joomlaxtc.com
+License: #  The CSS, XHTML is released under GPL:
+         #  http://www.opensource.org/licenses/gpl-license.php 
+		 #  Graphics under exclusive license (C)2009-2013 Monev Software LLC 
+		 #  Additional CSS, PHP, and Javascripting under exclusive license (C)2009-2013 Motif Software LLC 
+	     #  http://www.joomlaxtc.com
+
+/*
+TABLE OF CONTENTS
+	     D 00 - CSS Reset
+	     D 01 - CSS Grid
+	     D 02 - CSS Clearfix
+	     D 03 - CSS Float Classes
+	     D 04 - CSS Hide Text
+	     D 05 - Simple Image Gallery Pro fix
+	     D 06 - XTC Menu Structure
+	     D 07 - Content Overrides
+*/
+/* ----------------------------------------------*/
+/* D 00 - CSS Reset
+/* ----------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;	padding: 0;	border: 0px none;}
+table { border-collapse: separate; border-spacing: 0px;}
+caption, th, td { text-align: left; font-weight: normal; border-collapse: collapse; }
+blockquote:before, blockquote:after, q:before, q:after {  }
+blockquote, q {  }
+ul {list-style:none;}
+li {list-style-type:none;list-style-image:none;}
+a{color: inherit; text-decoration:none; }
+td, div {font-size: 100%;}
+* {padding:0;margin:0;}
+body {line-height:130%;margin:0;padding:0;height:100%;width:100%;}
+/* ----------------------------------------------*/
+/* D 01 - CSS Grid
+/* ----------------------------------------------*/
+/* ----------------------------------------------*/
+/* D 02 - CSS Clearfix
+/* ----------------------------------------------*/
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+* html .clearfix {zoom: 1;} /* IE6 */
+*:first-child+html .clearfix {zoom: 1;} /* IE7 */
+.clearBoth {clear:both;}
+/* ----------------------------------------------*/
+/* D 03 - CSS Float Classes
+/* ----------------------------------------------*/
+.floatLeft {float:left;}
+.floatRight {float:right;}
+/* ----------------------------------------------*/
+/* D 04 - CSS Hide Text
+/* ----------------------------------------------*/
+a.hideTxt, span.hideTxt {display:block;}
+.hideTxt {text-indent:-9999px;}
+/* ----------------------------------------------*/
+/* D 05 - Simple Image Gallery Pro fix
+/* ----------------------------------------------*/
+#lbOverlay {z-index: 999998!important;}
+#lbCenter, #lbBottomContainer {z-index: 999999!important;}
+#sbox-content {background:#000 !important;}
+/* ----------------------------------------------*/
+/* D 06 - XTC Menu Structure
+/* ----------------------------------------------*/
+ul.suckerfish, ul.dropline, ul.dualfish {position:relative;list-style-type:none;z-index:99999999999999;margin:0;padding:0;}
+ul.suckerfish > li, ul.dropline > li, ul.dualfish > li {display:block;float:left;padding:0; }
+ul.suckerfish > li > a, ul.dropline > li > a, ul.dualfish > li > a {display:block;padding:14px 26px 14px 26px; margin-left:1px;}
+ul.suckerfish > ul > li > a, ul.dropline > ul > li > a, ul.dualfish > ul > li > a {display:block;}
+ul.dualfish > li > ul li > ul,ul.suckerfish > li > ul li > ul,ul.dropline > li > ul li > ul {visibility:hidden;}
+ul.suckerfish li.xtcHover > ul, ul.dropline li.xtcHover > ul, ul.dualfish li.xtcHover > ul,ul.suckerfish li > ul:hover, ul.dropline li > ul:hover, ul.dualfish li > ul:hover {visibility:visible;}
+ul.suckerfish ul,ul.dropline ul,  ul.dualfish ul {display: block;visibility:hidden;overflow:hidden;position:absolute;z-index:9999919;top:60px;padding:12px 8px 10px;}
+ul.suckerfish ul:hover, ul.dropline ul:hover, ul.dualfish ul:hover {overflow:visible;}
+ul.suckerfish > li > ul > li:hover > a, ul.dualfish > li > ul > li:hover > a, ul.dropline > li > ul > li:hover > a {padding:0; position:relative; z-index:999; line-height:46px;}
+ul.dualfish > li > ul > li > a,ul.suckerfish > li > ul > li > a,ul.dropline > li > ul > li > a,ul.dualfish > li > ul > li.active > a,ul.suckerfish > li > ul > li.active > a, ul.dropline > li > ul > li.active > a {display:block;padding:0;line-height:46px;}
+ul.dualfish > li > ul > li a{}
+ul.dualfish > li > ul > li > a:hover,ul.suckerfish > li > ul > li > a:hover,ul.dropline > li > ul > li > a:hover {display:block;padding:0;line-height:46px;}
+#menu ul.menu li.parent > ul ul{}
+ul.dualfish li a > span,ul.suckerfish li a > span,ul.dropline li a > span {padding:0;}
+ul.dualfish li a > span.image-title,ul.suckerfish li a > span.image-title,ul.dropline li a > span.image-title {margin:0 0 0 56px;padding:12px 0 0 0;display:block;}
+ul.dualfish li a > span.image-title span.xmenu,ul.suckerfish li a > span.image-title span.xmenu,ul.dropline li a > span.image-title span.xmenu {}
+ul.dualfish li a span.xmenu,ul.suckerfish li a span.xmenu,ul.dropline li a span.xmenu {padding:0;}
+ul.suckerfish li a img,ul.dualfish li a img,ul.dropline li a img {padding:0;float:left;}
+ul.suckerfish > li, ul.dualfish > li, ul.dropline > li {margin-right:0;background:none;}
+ul.suckerfish li ul li.xtcHover a, ul.dualfish li ul li.xtcHover a, ul.dropline li ul li.xtcHover a {padding:0;line-height:46px;}
+ul.suckerfish li li > a {}
+ul.dualfish li li > a,  ul.dropline li li > a{border-left:0px!important;}
+/* Suckerfish */
+ul.suckerfish ul > li {display:block;position:relative;float:none;}
+ul.suckerfish ul li:first-child{background:none!important;}
+ul.suckerfish > li > ul {width:190px;}
+ul.suckerfish > li > ul > li {width:190px;margin:0;position:relative;}
+ul.suckerfish > li > ul > li > a {display:block;margin:0;  }
+ul.suckerfish > li > ul > li > ul {margin:0px 0px 0px 190px;}
+ul.suckerfish > li > ul > li > ul {top:0;padding-top:0;}
+/* Dualfish */
+ul.dualfish > li > ul {width:360px;}
+ul.dualfish > li > ul > li {width:190px;margin:0px;padding:0;display:block;position:relative;float:left;}
+#menu > ul.dualfish > li > ul > li:first-child + li{background:none!important;}
+ul.dualfish li ul li:first-child{background:none!important;}
+ul.dualfish > li > ul > li > ul {top:0;left:190px !important;padding:0;width:190px;}
+/* Dropline */
+ul.dropline > ul > li {display:block;float:left;width:auto;}
+ul.dropline li ul {height:auto;width:752px;padding:0;margin-left:0!important;left:0;position:absolute;display:block;float:none;}
+ul.dropline li ul li {width:188px;margin:0;padding:0px;text-align:left;position:relative;}
+ul.dropline > li > ul > li > a {display:block;margin:0px;}
+ul.dropline > li > ul > li > ul {position:absolute;margin:0;top:59px;left:-188px;}
+#menu > ul.dropline > li > ul > li:first-child,#menu > ul.dropline > li > ul > li:first-child + li,#menu > ul.dropline > li > ul > li:first-child + li + li,#menu > ul.dropline > li > ul > li:first-child + li + li + li,#menu > ul.dropline > li > ul > li:first-child + li + li + li + li,#menu > ul.dropline > li > ul > li ul li:first-child,#menu > ul.dropline > li > ul > li ul li:first-child + li,#menu > ul.dropline > li > ul > li ul li:first-child + li + li,#menu > ul.dropline > li > ul > li ul li:first-child + li + li + li,#menu > ul.dropline > li > ul > li ul li:first-child + li + li + li + li{background:none!important;}
+
+/* X-Menu */
+.xmenu {text-transform:none;letter-spacing:0;font-size:11px !important; }
+ul.imgmenu{width:100%;display:table; float:right;}
+ul.imgmenu li{display:table-cell;}
+ul.imgmenu li:first-child{padding-left:0;}
+ul.imgmenu img{float:left;padding:0 12px 0 0;width:3em;}
+ul.imgmenu span.image-title{float:left; font-size:1em; display:inline-block; line-height:133%; }
+#header ul.menu > li.active > a,#header ul.menu > li:hover > a{padding: 14px 36px 16px;z-index:999999999999999999;position:relative;}
+
+/* CSS3 SideMenu */
+.iconside{padding:0;width:89%;}
+.iconside li{display: block;padding:0;background: #fff;border:1px solid #f1f1f1 !important ;background: #f9f9f9 !important;margin:10px 0 0 0;}
+.iconside li:first-child{margin:0;}
+.iconside li a{text-align: left;display: block;color: #333;position: relative;padding:1% 4% 0 5%;}
+.iconside img{float:right; margin-top:10px;}
+.side_title{font-size: 18px;line-height:40px;display:inline-block;}
+.iconside .xmenu{font-size: 12px!important;line-height:42px;margin-top:-25px;color: #666;}
+.iconside li:hover{background: #e1f0fa;}
+.iconside li:hover .ca-main{color:#2676ac;}
+/* ----------------------------------------------*/
+/* D 07 - Content Overrides
+/* ----------------------------------------------*/
+/*content pages*/
+.category_header span, .article_header span,.action span{margin:0 5px 0 0;float:left;font-size:85%;line-height:130%;}
+.action span{float:right;}
+span.subheading-category {display:block;background:#5e8bc9;padding:12px 28px;font-weight:bold;color:#fff;display:inline-block;text-transform:uppercase;-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+/*category list*/
+.categories-list li{border-top:1px solid #CCCCCC;padding:10px 0;}
+.categories-list ul li ul li h4{font-size:0.975em;}
+.categories-list ul li span{font-size:0.875em;}
+tr.cat-list-row0 td,tr.cat-list-row1 td{ border-bottom: 1px solid #ccc;padding: 20px 5px 20px;font-family:Arial, Helvetica, sans-serif!important;font-size:14px;}
+div.display-limit {margin-bottom:20px;}
+th.hits,th.hits a{font-size:22px;}
+.webtitle,.webtitle p{font-size:24px;}
+tr.cat-list-row0 td p,tr.cat-list-row1 td p{margin:0!important;padding:0!important;}
+/*More Articles */
+.items-more {margin-top:40px;}
+.items-more ol {margin:0;}
+.items-more h3 {font-size:18px;margin:12px 0;}
+p.counter {text-align:center;}
+div.pagination,div.pagination ul  {text-align: center;height:auto;box-shadow:none!important;}
+div.pagination ul li{display:inline-block; padding:0 10px 0 0}
+div.pagination span {padding:10px 15px;font-size:14px;}
+div.pagination a,ul.pagenav a {padding:10px 15px;font-size:14px;}
+ul.pagenav li.pagenav-prev{float:left;}
+ul.pagenav li.pagenav-next{float:right;}
+p.counter{font-size:14px!important;}
+/*search*/
+.result{margin:0 0 30px 0;padding:0 0 30px 0;border-bottom:1px solid #ddd;}
+dd {margin:0 0 3px 0; font-size:0.875em;}
+/* contact */
+.contact_image {margin:15px 0 15px 0;}
+.vcard {margin: 12px 0;padding:12px;background:#999;color:#fff;}
+.contact label{font-size: 0.875em;font-weight:bold;line-height:18px;}
+.ctfields {border:5px solid #fff; outline:1px solid #f1f1f1; padding:30px !important;}
+.ctfields img{padding:8px 0 0 0;}
+/*user pages*/
+#users-profile-core dd, #users-profile-custom dd {padding: 8px 0; }
+#jxtc-lp{position: absolute; top: 0px; left: -5500px;}
+#users-profile-core dt, #users-profile-custom dt,.login label {float: left;line-height:30px;width: 12em; }
+label#password-lbl, label#username-lbl {padding-top:8px;}
+label#remember-lbl {line-height:24px;}
+form fieldset dt {clear: left;float: left;padding: 3px 0;width: 16em; margin-top:12px !important;}
+span.star{color:#F00;}
+span.optional {font-size: 10px; font-weight:normal; text-transform:uppercase; color:#999;}
+label{display:inline-block;text-transform:uppercase; padding-right:12px;}
+input[type="radio"], input[type="checkbox"]{margin-top:0;}
+#login-form label{line-height:14px;float:left;width:76px;}
+#adminForm label{float:left;width:150px;}
+p#form-login-username label,p#form-login-password label{line-height:26px;}
+input,select{margin:0 0 10px 0;}
+dt span.spacer{display:block;}
+.registration dl dt.spacer{float:none;}
+#recaptcha_area{margin:0 0 10px 0;}
+label{margin:0;}
+select, input[type="file"]{height:auto;margin-bottom: 9px;}
+.ffield{clear:both;margin:0 0 9px 0;}
+.formwrap,form#finder-search {text-align:left; width:50%; padding:42px 42px 22px; background:#f7f7f7; border:5px solid #ffffff; outline:1px solid #f1f1f1; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
+a#advanced-search-toggle {display:inline-block; margin: 16px 0 0 154px;}
+.formwrap ul {margin-top:12px;}
+.formwrap li {font-size:10px !important; text-transform:uppercase !important; list-style: inside; padding-top:4px;}
+ol.feedwrap, ul.feedwrap {margin:30px 0 0 0 !important;}
+ol.feedwrap li, ul.feedwrap li {padding-bottom:12px; margin-bottom:12px; border-bottom:1px solid #efefef;}
+h4.feedtitle {font-size:100%;}
+div.category-desc {}
+div.category-desc img {border:1px solid #ebebeb; width:115px; margin:6px 20px 0px 0;}
+/*newsfeeds*/
+.categories-list{}
+.categories-list ul{list-style:none;margin:0;padding:0;}
+.categories-list li{/*border-top:1px solid #efefef;padding:10px 0;*/}
+.categories-list li:first-child{border-top:none;}
+.categories-list h2{margin-bottom:0;}
+ul.actions{list-style:none;}
+.newsfeed-count{margin:0;}
+.archive ul{margin:0;list-style:none;}
+.archive ul li{padding:0;list-style:none;}
+div.newsfeed.redirect-ltr {text-align:left; padding:50px; background:#f7f7f7; border:5px solid #ffffff; outline:1px solid #f1f1f1; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
+div.newsfeed.redirect-ltr .ol {margin:0 !important; list-style: lower-roman!important; font-size:1em;}
+/*buttons*/
+.readmore{float:left;}
+.readmore a {font-weight:bold;color:#999;font-size:0.85em;display:inline-block;text-transform:uppercase;-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;float:left;}
+.quotetxt {font-weight: 100 !important}
+/*form and buttons*/
+select, input {margin:0;padding:11px !important;border:1px solid #f1f1f1 !important ;background: #f9f9f9 !important;-moz-border-radius:3px !important; -webkit-border-radius:3px !important; border-radius:3px !important;}
+.button, button {background:#5e8bc9;padding:12px 49px !important;font-weight:bold;color:#999;font-size:0.875em;display:inline-block;text-transform:uppercase;-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+input.button{border:none!important; }
+.search select#ordering {line-height:26px;}
+input#ccname1, input#ccemail1 {margin-bottom:20px;}
+textarea {-moz-border-radius:3px;border-radius:3px;-webkit-border-radius:3px;border:1px solid #ebebeb;color:#999999;font-size:12px;margin:0 5px 0 0;padding-left:12px;}
+input[type="checkbox"], input[type="radio"] {height:auto;border:0px!important; padding-top:12px !important;}
+/*system message*/
+dt.error{font-size:20px;line-height:20px;padding:10px;color:#ccc;}
+dd.error{padding:10px;}
+dd.error ul{list-style:none;}
+.catmenu img {float:left;}
+/* Panes */
+.panel{margin-top:-1px;}
+#main .contact .panel h3{margin:0px 0 0px 0;padding: 0;	background:#eee;border:0}
+.panel h3 a{display:block;padding:6px;text-decoration:none;color:#444;padding:6px;}
+.pagination ul{text-align:center;}
+.pagination ul li{display:inline;padding:0 10px;}
+#mailto-window {padding:24px;background:#fff;}
+#left .module:first-child h3,#right .module:first-child h3{border-top:none!important;}
+#xtc-region3title{margin: 0 auto;}
+.wallpage {table-layout:fixed!important;}
+.wallslider{display:block!important;}
+h3.moduletitle i{vertical-align:middle; line-height:100%;}
+h3.moduletitle i:before{vertical-align:middle;}
+.tip-wrap{background:#FFFFCC;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;padding:20px;max-width:80%;}
+.tip-text{color:#222;font-size:11px;}
+#adminForm label{font-size: 0.875em;font-weight:bold;line-height:42px;}
+ul.dualfish li ul.dualfish li a{padding:0px 15px 0px 15px;margin:0!important;}
+ul.suckerfish li ul.suckerfish li a{padding:0px 12px 0px 15px!important;}
+ul.dropline li ul.dropline li a{padding:2px 15px 12px 15px!important;}
+.circlebottom2_info a{display:block;height:150px;width:150px;}
+
+
+
+
+
+ 

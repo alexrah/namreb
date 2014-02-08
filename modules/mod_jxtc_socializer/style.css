@@ -1,0 +1,253 @@
+/* Browser Reset
+================================================== */
+
+/*
+.jxtcsocial a, .jxtcsocial ul, .jxtcsocial li {
+	margin:0px !important; 
+	padding:0px !important; 
+	border:0px !important; 
+	border-collapse:separate !important; 
+	border-spacing:0px !important;
+	font-weight: inherit !important;
+	font-style: inherit !important;
+	font-size: 100% !important;
+	text-decoration:none !important;
+	background:none !important;
+}
+*/
+
+.jxtcsocial a { 
+	text-decoration:none !important; 
+	padding:0px;
+	margin:0px;
+	border:0px; 
+	font-size: 100%;
+	background:none !important;
+	border-collapse:separate !important; 
+	border-spacing:0px !important;
+}
+
+.jxtcsocial a:hover, .jxtcsocial a:active { 
+	text-decoration:none !important;
+	background:none !important;
+}
+
+.jxtcsocial a img { 
+	border: 0px !important; 
+}
+
+
+/* Social Bar
+================================================== */
+
+.socialbar {
+	width: 100%;
+	min-height: 40px;
+	background-color: #FFFFFF;
+	padding: 0;
+	font-size: 0;
+	z-index: 999;
+}
+
+.socialbar:after {
+	clear: left;
+	content: " ";
+}
+
+.socialbar_transparent {
+	width: 100%;
+	min-height: 40px;
+	padding: 0;
+	font-size: 0;
+	z-index: 999;
+}
+
+.socialbar_transparent:after {
+	clear: left;
+	content: " ";
+}
+
+.borderless .ss li { border: none; }
+.borderless .ss li:first-child { border: none; }
+
+/* Social Sprites: General Listing
+================================================== */
+
+.ss {
+	width: auto;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	overflow: hidden;
+}
+
+.ss li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	border-right: 1px solid rgba(0,0,0,0.2);
+	background-image:url("images/socialsprites.png");
+	background-repeat: no-repeat;
+	
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.ss li:hover {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.ss li:first-child {
+	border-left: 1px solid rgba(0,0,0,0.2);
+}
+
+.ss li a {
+	display: block;
+	text-indent: -9999;
+	height: 40px;
+	width: 40px;
+}
+
+.ss li a:active {
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.3), inset 0 0 10px rgba(0,0,0,0.3);
+	-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.3), inset 0 0 10px rgba(0,0,0,0.3);
+	-moz-box-shadow: inset 0 0 10px rgba(0,0,0,0.3), inset 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Social Sprites: Icon Classes
+================================================== */
+
+.ss li.digg { background-position: 0 0; }
+.ss li.digg:hover { background-position: 0 -40px; }
+.ss li.dribbble { background-position: 0 -80px; }
+.ss li.dribbble:hover { background-position: 0 -120px; }
+.ss li.facebook { background-position: 0 -160px; }
+.ss li.facebook:hover { background-position: 0 -200px; }
+.ss li.flickr { background-position: 0 -240px; }
+.ss li.flickr:hover { background-position: 0 -280px; }
+.ss li.forrst { background-position: 0 -320px; }
+.ss li.forrst:hover { background-position: 0 -360px; }
+.ss li.googleplus { background-position: 0 -400px; }
+.ss li.googleplus:hover { background-position: 0 -440px; }
+.ss li.html5 { background-position: 0 -480px; }
+.ss li.html5:hover { background-position: 0 -520px; }
+.ss li.icloud { background-position: 0 -560px; }
+.ss li.icloud:hover { background-position: 0 -600px; }
+.ss li.lastfm { background-position: 0 -640px; }
+.ss li.lastfm:hover { background-position: 0 -680px; }
+.ss li.linkedin { background-position: 0 -720px; }
+.ss li.linkedin:hover { background-position: 0 -760px; }
+.ss li.myspace { background-position: 0 -800px; }
+.ss li.myspace:hover { background-position: 0 -840px; }
+.ss li.paypal { background-position: 0 -880px; }
+.ss li.paypal:hover { background-position: 0 -920px; }
+.ss li.picasa { background-position: 0 -960px; }
+.ss li.picasa:hover { background-position: 0 -1000px; }
+.ss li.pinterest { background-position: 0 -1040px; }
+.ss li.pinterest:hover { background-position: 0 -1080px; }
+.ss li.reddit { background-position: 0 -1120px; }
+.ss li.reddit:hover { background-position: 0 -1160px; }
+.ss li.rss { background-position: 0 -1200px; }
+.ss li.rss:hover { background-position: 0 -1240px; }
+.ss li.skype { background-position: 0 -1280px; }
+.ss li.skype:hover { background-position: 0 -1320px; }
+.ss li.stumbleupon { background-position: 0 -1360px; }
+.ss li.stumbleupon:hover { background-position: 0 -1400px; }
+.ss li.tumblr { background-position: 0 -1440px; }
+.ss li.tumblr:hover { background-position: 0 -1480px; }
+.ss li.twitter { background-position: 0 -1520px; }
+.ss li.twitter:hover { background-position: 0 -1560px; }
+.ss li.vimeo { background-position: 0 -1600px; }
+.ss li.vimeo:hover { background-position: 0 -1640px; }
+.ss li.wordpress { background-position: 0 -1680px; }
+.ss li.wordpress:hover { background-position: 0 -1720px; }
+.ss li.yahoo { background-position: 0 -1760px; }
+.ss li.yahoo:hover { background-position: 0 -1800px; }
+.ss li.youtube { background-position: 0 -1840px; }
+.ss li.youtube:hover { background-position: 0 -1880px; }
+
+
+
+/* Social Sprites Mini
+================================================== */
+.socialbar_mini {
+	/*height: 30px;*/
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	z-index: 999;
+}
+
+.borderless .ssm li { border: none; }
+.borderless .ssm li:first-child { border: none; }
+
+.ssm { width: auto; margin: 0; padding: 0; text-align: center; overflow: hidden; font-size: 0; }
+.ssm li { display: inline-block; margin: 0 0px; padding: 0; border-right: 1px solid rgba(0,0,0,0.2); background-image:url("images/socialsprites_mini.png"); background-repeat: no-repeat;
+-webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; -ms-transition: all 0.3s ease; transition: all 0.3s ease; }
+.ssm li:hover {-webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; -ms-transition: all 0.3s ease; transition: all 0.3s ease; }
+.ssm li:first-child { border-left: 1px solid rgba(0,0,0,0.2); }
+.ssm li a { display: block; text-indent: -9999; height: 30px; width: 30px; }
+.ssm li a:active { box-shadow: inset 0 0 10px rgba(0,0,0,0.3), inset 0 0 10px rgba(0,0,0,0.3);
+-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.3), inset 0 0 10px rgba(0,0,0,0.3);
+-moz-box-shadow: inset 0 0 10px rgba(0,0,0,0.3), inset 0 0 10px rgba(0,0,0,0.3); }
+
+.ssm li.digg { background-position: 0 0; }
+.ssm li.digg:hover { background-position: 0 -30px; }
+.ssm li.dribbble { background-position: 0 -60px; }
+.ssm li.dribbble:hover { background-position: 0 -90px; }
+.ssm li.facebook { background-position: 0 -120px; }
+.ssm li.facebook:hover { background-position: 0 -150px; }
+.ssm li.flickr { background-position: 0 -180px; }
+.ssm li.flickr:hover { background-position: 0 -210px; }
+.ssm li.forrst { background-position: 0 -240px; }
+.ssm li.forrst:hover { background-position: 0 -270px; }
+.ssm li.googleplus { background-position: 0 -300px; }
+.ssm li.googleplus:hover { background-position: 0 -330px; }
+.ssm li.html5 { background-position: 0 -360px; }
+.ssm li.html5:hover { background-position: 0 -390px; }
+.ssm li.icloud { background-position: 0 -420px; }
+.ssm li.icloud:hover { background-position: 0 -450px; }
+.ssm li.lastfm { background-position: 0 -480px; }
+.ssm li.lastfm:hover { background-position: 0 -510px; }
+.ssm li.linkedin { background-position: 0 -540px; }
+.ssm li.linkedin:hover { background-position: 0 -570px; }
+.ssm li.myspace { background-position: 0 -600px; }
+.ssm li.myspace:hover { background-position: 0 -630px; }
+.ssm li.paypal { background-position: 0 -660px; }
+.ssm li.paypal:hover { background-position: 0 -690px; }
+.ssm li.picasa { background-position: 0 -720px; }
+.ssm li.picasa:hover { background-position: 0 -750px; }
+.ssm li.pinterest { background-position: 0 -780px; }
+.ssm li.pinterest:hover { background-position: 0 -810px; }
+.ssm li.reddit { background-position: 0 -840px; }
+.ssm li.reddit:hover { background-position: 0 -870px; }
+.ssm li.rss { background-position: 0 -900px; }
+.ssm li.rss:hover { background-position: 0 -930px; }
+.ssm li.skype { background-position: 0 -960px; }
+.ssm li.skype:hover { background-position: 0 -990px; }
+.ssm li.stumbleupon { background-position: 0 -1020px; }
+.ssm li.stumbleupon:hover { background-position: 0 -1050px; }
+.ssm li.tumblr { background-position: 0 -1080px; }
+.ssm li.tumblr:hover { background-position: 0 -1110px; }
+.ssm li.twitter { background-position: 0 -1140px; }
+.ssm li.twitter:hover { background-position: 0 -1170px; }
+.ssm li.vimeo { background-position: 0 -1200px; }
+.ssm li.vimeo:hover { background-position: 0 -1230px; }
+.ssm li.wordpress { background-position: 0 -1260px; }
+.ssm li.wordpress:hover { background-position: 0 -1290px; }
+.ssm li.yahoo { background-position: 0 -1320px; }
+.ssm li.yahoo:hover { background-position: 0 -1350px; }
+.ssm li.youtube { background-position: 0 -1380px; }
+.ssm li.youtube:hover { background-position: 0 -1410px; }
+
+
+
+
+

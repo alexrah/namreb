@@ -1,0 +1,309 @@
+/*
+Template Name: Motif
+Template URI: http://www.joomlaxtc.com
+Description: Motif XTC Joomla 2.5
+Version: 1.0
+Author: Monev Software LLC
+Author URI: http://www.joomlaxtc.com
+License: #  The CSS, XHTML is released under GPL:
+         #  http://www.opensource.org/licenses/gpl-license.php 
+		 #  Graphics under exclusive license (C)2009-2013 Monev Software LLC 
+		 #  Additional CSS, PHP, and Javascripting under exclusive license (C)2009-2013 Monev Software LLC 
+	     #  http://www.joomlaxtc.com
+
+*/
+/* ----------------------------------------------*/
+/* B 00 - Body
+/* ----------------------------------------------*/
+/* body {background:<?php echo $params->bodybg;?> <?php if ($params->bodybgimg != "-1"){?>url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->bodybgimg; ?>') <?php echo $params->bodybgposition;?><?php } ?>;color:<?php echo $params->body_color;?>} */
+body { background: url("../images/backgrounds/mainbkg.jpg") no-repeat 50% -143px;}
+/* ----------------------------------------------*/
+/* B 01 - Heading,links and titles
+/* ----------------------------------------------*/
+.contentheading {color:<?php echo $params->conHead_color;?>;}
+.componentheading {color:<?php echo $params->comHead_color;?>;}
+a,input.button {color:<?php echo $params->link_color;?>;}
+a:hover {color:<?php echo $params->linkhover_color;?>;}
+a:active {color:<?php echo $params->linkactive_color;?>;}
+h1 {color:<?php echo $params->h1_color;?>;}
+h2 {color:<?php echo $params->h2_color;?>;}
+h3 {color:<?php echo $params->h3_color;?>;}
+h4 {color:<?php echo $params->h4_color;?>;}
+h5 {color:<?php echo $params->h5_color;?>;}
+h6 {color:<?php echo $params->h6_color;?>;}
+/* ----------------------------------------------*/
+/* B 02 - Titles
+/* ----------------------------------------------*/
+h1.pagetitle{background-color: <?php echo $params->basecolor2;?>;}
+.pagetitle, .pagetitle a {color:<?php echo $params->comHead_color;?>;}
+.pagetitle span{}
+.title {color:<?php echo $params->conHead_color;?>;}
+.title a {color:<?php echo $params->conHead_color;?>;}
+.title a:hover {color:<?php echo $params->link_color;?>;}
+h4.title{color:<?php echo $params->h4_color;?>;}
+/* ----------------------------------------------*/
+/* B 03 - Basecolor styles, used in JXTC Walls and 3rd party components
+/* ----------------------------------------------*/
+.basecolor_1 {color:<?php echo $params->basecolor1;?>;}
+.basecolor_2 {color:<?php echo $params->basecolor2;?>;}
+.basecolor_2 a {color:<?php echo $params->basecolor2;?>;}
+.basecolor_3 {color:<?php echo $params->basecolor3;?>;}
+.basecolor_4 {color:<?php echo $params->basecolor4;?>;}
+.basecolor_5 {color:<?php echo $params->basecolor5;?>;}
+.basecolor_6 {color:<?php echo $params->basecolor6;?>;}
+.basecolor_7 {color:<?php echo $params->basecolor7;?>;}
+.basecolor_8 {color:<?php echo $params->basecolor8;?>;}
+/* ----------------------------------------------*/
+/* L 00 - Header,logo,menu,inset,message,breadcrumb
+/* ----------------------------------------------*/
+#headerwrap{background:<?php echo $params->headerwrap; ?> <?php if ($params->headerwrapimage != "-1"){?>url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->headerwrapimage; ?>') <?php echo $params->headerwrapposition; ?><?php }?>; border-top:3px solid <?php echo $params->basecolor2;?>; }
+#header{background:<?php echo $params->header; ?> <?php if ($params->headerimage != "-1"){?>url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->headerimage; ?>') <?php echo $params->headerposition; ?><?php }?>;}
+#logo a{background:<?php if ($params->logoImg != "-1"){?>url(<?php echo $imgpath; ?>/logos/<?php echo $params->logoImg; ?>) no-repeat 0 0<?php }?>;height: <?php echo $params->logoheight;?>px;width:<?php echo $params->logowidth;?>px;margin:<?php echo $params->logopadding; ?>;}
+#search input{-moz-box-shadow: -1px -1px 0px rgba(0,0,0,0.3), 1px 1px 0px rgba(255,255,255,0.075); -webkit-box-shadow: -1px -1px 0px rgba(0,0,0,0.3), 1px 1px 0px rgba(255,255,255,0.075); box-shadow: -1px -1px 0px rgba(0,0,0,0.3), 1px 1px 0px rgba(255,255,255,0.075);}
+/* ----------------------------------------------*/
+/* L 01 - Region 1
+/* ----------------------------------------------*/
+#region1wrap{background:<?php echo $params->region1wrap; ?> <?php if ($params->region1wrapimage != "-1"){?>url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->region1wrapimage; ?>') <?php echo $params->region1wrapposition; ?><?php }?>;}
+#region1{background:<?php echo $params->region1; ?> <?php if ($params->region1image != "-1"){?>    url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->region1image; ?>') <?php echo $params->region1position; ?><?php }?>;}
+/* ----------------------------------------------*/
+/* L 02 - Region 2
+/* ----------------------------------------------*/
+#region2wrap{background:<?php echo $params->region2wrap; ?> <?php if ($params->region2wrapimage != "-1"){?>url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->region2wrapimage; ?>') <?php echo $params->region2wrapposition; ?>;<?php }?>}
+#region2{background:<?php echo $params->region2; ?> <?php if ($params->region2image != "-1"){?>url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->region2image; ?>') <?php echo $params->region2position; ?><?php }?>;position:relative;z-index:2;}
+/* ----------------------------------------------*/
+/* L 03 - Region 3
+/* ----------------------------------------------*/
+#region3wrap{background:<?php echo $params->region3wrap; ?> <?php if ($params->region3wrapimage != "-1"){?>url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->region3wrapimage; ?>') <?php echo $params->region3wrapposition; ?><?php }?>;}
+#region3wrapnoimg{background:<?php echo $params->region3wrap; ?>}
+#region3{ background:<?php echo $params->region3; ?> <?php if ($params->region3image != "-1"){?>url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->region3image; ?>') <?php echo $params->region3position; ?><?php }?>;}
+/* ----------------------------------------------*/
+/* L 04 - Region 4
+/* ----------------------------------------------*/
+#region4wrap{background:<?php echo $params->region4wrap; ?> <?php if ($params->region4wrapimage != "-1"){?>url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->region4wrapimage; ?>') <?php echo $params->region4wrapposition; ?><?php }?>;}
+#region4{background:<?php echo $params->region4; ?> <?php if ($params->region4image != "-1"){?>url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->region4image; ?>') <?php echo $params->region4position; ?><?php }?>;}
+/* ----------------------------------------------*/
+/* L 05 - Region 5
+/* ----------------------------------------------*/
+#region5wrap{background:<?php echo $params->region5wrap; ?> <?php if ($params->region5wrapimage != "-1"){?>url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->region5wrapimage; ?>') <?php echo $params->region5wrapposition; ?><?php }?>;}
+#region5{background:<?php echo $params->region5; ?> <?php if ($params->region5image != "-1"){?>url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->region5image; ?>') <?php echo $params->region5position; ?><?php }?>;}
+/* ----------------------------------------------*/
+/* L 06 - Region 6
+/* ----------------------------------------------*/
+#region6wrap{background:<?php echo $params->region6wrap; ?> <?php if ($params->region6wrapimage != "-1"){?>url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->region6wrapimage; ?>') <?php echo $params->region6wrapposition; ?><?php }?>;}
+#region6{background:<?php echo $params->region6; ?> <?php if ($params->region6image != "-1"){?>url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->region6image; ?>') <?php echo $params->region6position; ?><?php }?>;}
+/* ----------------------------------------------*/
+/* L 07 - Region 7
+/* ----------------------------------------------*/
+#region7wrap{background:<?php echo $params->region7wrap; ?> <?php if ($params->region7wrapimage != "-1"){?>url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->region7wrapimage; ?>') <?php echo $params->region7wrapposition; ?><?php }?>;}
+#region7{background:<?php echo $params->region7; ?> <?php if ($params->region7image != "-1"){?>url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->region7image; ?>') <?php echo $params->region7position; ?><?php }?>;}
+/* ----------------------------------------------*/
+/* L 08 - Region 8
+/* ----------------------------------------------*/
+#region8wrap{background:<?php echo $params->region8wrap; ?> <?php if ($params->region8wrapimage != "-1"){?> url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->region8wrapimage; ?>') <?php echo $params->region8wrapposition; ?><?php }?>;}
+#region8{background:<?php echo $params->region8; ?> <?php if ($params->region8image != "-1"){?> url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->region8image; ?>') <?php echo $params->region8position; ?><?php }?>;}
+/* ----------------------------------------------*/
+/* L 09 - Region 9
+/* ----------------------------------------------*/
+#region9wrap{background:<?php echo $params->region9wrap; ?> <?php if ($params->region9wrapimage != "-1"){?>url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->region9wrapimage; ?>') <?php echo $params->region9wrapposition; ?><?php }?>;}
+#region9{background:<?php echo $params->region9; ?> <?php if ($params->region9image != "-1"){?>url('<?php echo $imgpath; ?>/backgrounds/<?php echo $params->region9image; ?>') <?php echo $params->region9position; ?><?php }?>;}
+#region9 input.inputbox{background:#333!important;border:1px solid #333!important;}
+/* ----------------------------------------------*/
+/* L 07 - Footerwrap
+/* ----------------------------------------------*/
+#footerwrap{background:<?php echo $params->footer; ?>;color:#222;}
+#footerpad{background:<?php echo $params->footerpad; ?>;}
+/* ----------------------------------------------*/
+/* M 00 - XTC Menu
+/* ----------------------------------------------*/
+#menu {background: <?php echo $params->toplevelbgcolor;?>;}
+#menu .xmenu {color:#aaaaaa;}
+/* Top Level */
+#header ul.menu > li > a {color:<?php echo $params->topleveltxtcolor;?>; background-color: <?php echo $params->toplevelabgcolor;?>; border-top: 3px solid; border-bottom: 3px solid;  border-top-color:transparent; border-bottom-color:transparent;}
+#header ul.menu > li > a:hover,#header ul.menu > li.xtcHover a {color:<?php echo $params->topleveltxthovercolor;?>;background-color: <?php echo $params->toplevelahoverbgcolor;?>; border-top-color:<?php echo $params->basecolor5;?>;border-radius: 0; -moz-border-radius:0; -webkit-border-radius:0;}
+#header ul.menu > li.active > a{color:<?php echo $params->topleveltxtactivecolor;?>;background-color: <?php echo $params->toplevelaactivebgcolor;?>; border-top-color:<?php echo $params->basecolor5;?>;border-radius: 0; -moz-border-radius:0; -webkit-border-radius:0;}
+/* Dropdown Level */
+#header ul.menu li.parent > ul {background: <?php echo $params->droplevelbgcolor;?>;padding:8px 8px 0px 8px;box-shadow: 0 0 15px rgba(0,0,0,0.5);clip:rect(0px, 1000px, 1000px, -10px);}
+#header ul.menu li.parent > ul > li > a {color:<?php echo $params->dropfont_color;?>;background: <?php echo $params->droplevelabgcolor;?>;margin-bottom:8px;border-left: 3px solid <?php echo $params->basecolor5;?>;}
+#header ul.menu li.parent > ul > li.active > a {color:<?php echo $params->dropfontactive_color;?>;background: <?php echo $params->droplevelaactivebgcolor;?>;margin-bottom:8px;border-left: 3px solid <?php echo $params->basecolor5;?>;}
+#header ul.menu li.parent > ul > li > a:hover {color:<?php echo $params->dropfonthover_color;?>;background: <?php echo $params->droplevelahoverbgcolor;?>;margin-bottom:8px;border-left: 3px solid <?php echo $params->basecolor1;?>;}
+/* ----------------------------------------------*/
+/* S 00 - Module Suffixes
+/* ----------------------------------------------*/
+.module{background: <?php echo $params->modbkgcolor; ?>;}
+.module h3{background: <?php echo $params->modtitlebkgcolor; ?>  <?php if ($params->modtitleimage != "-1"){?>url(<?php echo $imgpath; ?>/icons/<?php echo $params->modtitleimage; ?>) no-repeat 0 50%<?php }?>;}
+.module h3 span.first_word{color:<?php echo $params->modtitlefirstword;?>;}
+.module h3 span.rest{color:<?php echo $params->modtitlesecondword;?>!important;}
+.rtitle h3 span {background-color:<?php echo $params->basecolor2;?>;color:#fff!important; color: rgba(255,255,255,0.75)!important; text-shadow:-1px -1px 0px rgba(0,0,0,0.25);}
+.frame {border: 8px solid <?php echo $params->basecolor2;?>!important;}
+.box{background:<?php echo $params->basecolor2;?>!important;color:#fff!important;}
+.tabbed h3{border-bottom-color:<?php echo $params->basecolor2;?>!important;background:none!important;}
+.tabbed h3 span{background:<?php echo $params->basecolor2;?>!important;	color:#fff!important; color: rgba(255,255,255,0.75)!important; text-shadow:-1px -1px 0px rgba(0,0,0,0.25);}
+.stylebox{background:<?php echo $params->basecolor5;?>;color:#fff;}
+/* ----------------------------------------------*/
+/* C 00 - Content Overrides
+/* ----------------------------------------------*/
+/* Joomla Content */
+.comwrap {background:#f7f7f7;border:5px solid #ffffff;outline:1px solid #f1f1f1;}
+.category_img{border:1px solid #e1e2de;background:#eef0eb;}
+.cat-item div.action span{border-right:1px solid #CCCCCC;}
+.btn input,.btn button{ background:#660066;}
+.btn { background:#f5f5f5; border-color:#ebebeb; }
+.button, button {background:<?php echo $params->basecolor2;?>}
+div.joomla div.item{border-bottom:1px dotted #ccc;} 
+.wallframe {background:#f7f7f7; border:1px solid #e6e6e6;}
+.imgframe {background:#f7f7f7; border-top:1px solid #e6e6e6;border-left:1px solid #e6e6e6;border-right:1px solid #e6e6e6;}
+h5.day {color:#999;}
+h5.month{color:#333;}
+.article_header {background:#f7f7f7; border-bottom:1px solid #e6e6e6;border-left:1px solid #e6e6e6;border-right:1px solid #e6e6e6;}
+.article_date_pad{color:<?php echo $params->basecolor2;?>;}
+div.contact.row-fluid h3 {color:#333;}
+div.breadcrumbs a.pathway, div.breadcrumbs span.here {display:inline-block; padding-bottom:4px;color:#fff !important; color: rgba(255,255,255,0.75) !important;}
+span.showHere {color:<?php echo $params->basecolor1;?>;}
+a.pathway {color:#fff!important;}
+span.here {color:#fff!important;}
+.readmore a {color:<?php echo $params->basecolor1;?> !important;}
+.readmore a span {color:<?php echo $params->basecolor2;?>;}
+.readmore a:hover {background:<?php echo $params->basecolor1;?>; color:#fff; text-shadow: 1px 1px 0 rgba(0,0,0,0.3); box-shadow: 2px 2px 0 rgba(0,0,0,0.15);}
+div.pagination span {color:#ccc;}
+.pagination ul > li > a, .pagination ul > li > span {background-color:<?php echo $params->basecolor3;?>;color:#ccc;}
+.pagination ul > li > a {color:#fff;}	
+.pagination ul > li > a:hover {color:#666;}
+legend {color:<?php echo $params->basecolor1;?> !important;}
+dt.result-title, dt.result-title a {color:<?php echo $params->basecolor1;?> !important; font-weight:normal;}
+.search_menu_btn {color:#ebebeb;background:#666;}
+.search_menu_btn:hover {color:#fff;background:<?php echo $params->basecolor1;?>;cursor:pointer;}
+.items-more h3 {color:<?php echo $params->basecolor1;?>!important;}
+/* ----------------------------------------------*/
+/* C 01 - Typography
+/* ----------------------------------------------*/
+.numbered:after, .numbered-medium:after, .numbered-small:after {border-color:<?php echo $params->region3; ?>;}
+.bargraphv,.bargraphv a:hover{ background-color:<?php echo $params->basecolor1;?>!important;}
+.circletag { background-color:<?php echo $params->basecolor1;?>!important;}
+.circlebottom {border-top-color: <?php echo $params->basecolor1;?>!important;}
+.cloud_tag1 {background-color:<?php echo $params->basecolor2;?>!important;}
+.bargraphv,.bargraphv a {background-color:<?php echo $params->basecolor1;?>!important;} 
+/* ----------------------------------------------*/
+/* H 01 - JXTC  Walls(Newspro News Module)
+/* ----------------------------------------------*/
+.testimonialwrap {background-color:<?php echo $params->basecolor6;?>!important;}
+.testimonialwrap p {color:#fff;}
+.testimonialbtmwrap {border-top: 25px solid <?php echo $params->basecolor6;?>; } 
+.jxtc_newspro_tmp27_info .jxtc_newspro_tmp27_info_front {/*-moz-box-shadow:none !important;-webkit-box-shadow:none!important;box-shadow:none!important;*/}
+.slidetitle1 {color:#000;}
+.slideintro {color:#999;}
+.btnlogin {background:<?php echo $params->basecolor8;?> url(<?php echo $imgpath; ?>/backgrounds/logbtn-bkg-s1.png) repeat-x 50% 50%!important;border-color:<?php echo $params->basecolor8;?>!important; color:#fff;font-weight:bold;}
+#modlgn-username,#modlgn-passwd, .btnlogin {box-shadow: 0 3px 0 rgba(0,0,0,0.15);-moz-box-shadow: 0 3px 0 rgba(0,0,0,0.15);-webkit-box-shadow: 0 3px 0 rgba(0,0,0,0.15);}
+/* ----------------------------------------------*/
+/* H 01 - JXTC  Walls(Newspro News Module)
+/* ----------------------------------------------*/
+/*------Text Colors----------*/
+.newsitemwrap h4 a {color:#fff; }
+.newsitemwrap h4 {border-bottom:1px dotted #fff;}
+p.article-intro {color:#fff;}
+.newspromore a {float:left; color:#fff;}
+.newspromore a i {padding:2px 5px 0 0;}
+.newsprocomments {float:right; color:#fff;}
+.newsprocomments i {padding:2px 7px 0 0;}
+.jxtc_newspro_latestnews a.info i {padding:2px 7px 0 0;}
+
+.newswrap {}
+.newsitemwrap {background-color:<?php echo $params->basecolor5;?>;}
+.newsitemwrap img.intimage {}
+.articles .col-1 .newsitemwrap,.articles .col-1 .jxtc_newspro_latestnews a.info {background:<?php echo $params->basecolor7;?> !important;}
+.articles .col-2 .newsitemwrap,.articles .col-2 .jxtc_newspro_latestnews a.info{background:<?php echo $params->basecolor6;?> !important;}
+.articles .col-3 .newsitemwrap,.articles .col-3 .jxtc_newspro_latestnews a.info{background:<?php echo $params->basecolor5;?> !important;}
+.articles .col-4 .newsitemwrap{background:#fff;}
+.articles .col-5 .newsitemwrap{background:#333;}
+.articles .col-6 .newsitemwrap{background:#000;}
+.newstext2 {background:#111}
+.newstext2 h3 {color:#fff;}
+/* ----------------------------------------------*/
+/* H 03 - Acymailing
+/* ----------------------------------------------*/
+#user_name_formAcymailing {background:#666!important;}
+#user_email_formAcymailing {background:#666!important;}
+/* ----------------------------------------------*/
+/* H 05 - Custom HTML Markup
+/* ----------------------------------------------*/
+.diag {background: url(<?php echo $imgpath; ?>/backgrounds/diag.png) repeat; text-align:center;}
+.circlebottom1 {padding:20px; background: url(<?php echo $imgpath; ?>/backgrounds/diag.png) repeat; border:3px solid #fff; box-shadow:0 0 0 3px #ccc;  }
+.circlebottom2 {background:#333 url(<?php echo $imgpath; ?>/backgrounds/arrowup.png) 50% 50% no-repeat; border:3px solid #fff;-moz-background-size:100%; -webkit-background-size:100%; background-size:100%;}
+.circlebottom2:hover {background-color:<?php echo $params->basecolor5;?>;}
+.circlebottom2 i {margin-top:12px;}
+.circlebottom2 h2 {color:#fff; margin-top:16px;}
+.circlebottom2_grid {margin: 0 0 0 -17px;padding: 0;list-style: none;display: block;text-align: center;width: 150px;height: 150px;display: inline-block;}
+.circlebottom2_grid:after,.circlebottom2_item:before {content: '';display: table;}
+.circlebottom2_grid:after {clear: both;}
+.circlebottom2_item {
+	background:#666 url(<?php echo $imgpath; ?>/backgrounds/arrowup.png) 50% 50% no-repeat;
+	-moz-background-size:100%; -webkit-background-size:100%; background-size:100%;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	box-shadow:	inset 0 0 0 0 #333,0 3px 0 rgba(0,0,0,0.2);
+	border:8px solid #fff;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.circlebottom2_info {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    transform: scale(0);
+    backface-visibility: hidden;
+
+}
+.circlebottom2_info h3 {
+	    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    top:100px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin: -58px 30px 0;
+    padding: 0 0 0 0;
+    height: 50px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-shadow:
+        0 0 1px #fff,
+        0 1px 2px rgba(0,0,0,0.3);
+}
+.circlebottom2_info p {color: #fff; color: rgba(0,0,0,0.9);margin: 40px 0 0 -42px;font-size: 74px;}
+.circlebottom2_item:hover { box-shadow:inset 0 0 0 16px rgba(255,255,255,0.8),0 3px 0 rgba(0,0,0,0.2);
+background: <?php echo $params->basecolor7;?> url(<?php echo $imgpath; ?>/backgrounds/arrowup1.png) 50% 50% no-repeat;
+-moz-background-size:100%; -webkit-background-size:100%; background-size:100%;
+}
+.circlebottom2_item:hover .circlebottom2_info {opacity: 1;transform: scale(1);}
+/* ----------------------------------------------*/
+/* H 06 - Kommento
+/* ----------------------------------------------*/
+.kmt-readmore span {color:#393939;}
+.kmt-readmore a {color:<?php echo $params->basecolor1;?> !important;border-right:1px solid #ccc;}
+.kmt-readmore a:hover {color:<?php echo $params->basecolor1;?> !important;}
+.kmt-comment span {color:#393939;}
+.kmt-comment a {color:<?php echo $params->basecolor1;?> !important;border-right:1px solid #ccc;}
+.kmt-comment a:hover {color:<?php echo $params->basecolor1;?> !important;}
+.kmt-hits span {color:#393939;}
+.kmt-hits a {color:<?php echo $params->basecolor1;?> !important;}
+.kmt-hits a:hover {color:<?php echo $params->basecolor1;?> !important;}
+#section-kmt .input.button {background:<?php echo $params->basecolor1;?> !important;color:#fff !important;	}
+#section-kmt .kmt-btn-submit {background:<?php echo $params->basecolor1;?> !important;color:#fff !important;}
+div.kmt-content p {background:#fff;}
+div.kmt-content p:after {border-color:transparent #fff;}
+.circle {background:<?php echo $params->basecolor1;?> !important;color:#fff !important;}
+/* ----------------------------------------------*/
+/* T 01 MOBILE
+/* ----------------------------------------------*/
+.mobilebtn {background-color:<?php echo $params->basecolor1;?>!important;}
+@media (max-width: 767px) {
+body {background-position: 50% 0px !important;}
+}

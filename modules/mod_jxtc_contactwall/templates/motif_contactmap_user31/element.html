@@ -1,0 +1,54 @@
+<div class="contactwrap">
+<div class="contactwrapleft">
+<div style="float:left;margin-right:16px;">	
+<i class="icon-phone"></i>&nbsp;&nbsp;{telephone}&nbsp;&nbsp;(9am - 5pm)
+</div>
+<div style="float:left;">	
+<i class="icon-envelope-alt"></i>&nbsp;&nbsp;{email_to}
+</div>
+<div style="clear:both;">
+</div>
+<br />
+<br />{modal href="{miscellanous}"}
+<img src="{contactimageurl}">{/modal}
+</div>
+<div class="contactwrapright">
+
+
+	<form id="contact-form" action="/jan13/index.php/jcontent/contact" method="post" class="emailForm">
+            <fieldset><dl>	
+		 <div class="ctwhalf" style="float:left;width:48%;">
+				<input type="text" name="jform[contact_name]" id="jform_contact_name" value="name"  class="required"/>		
+		</div>
+		<div class="ctwhalf" style="float:left;width:48%;margin-left:4%;">
+			<input type="text" name="jform[contact_email]" class="validate-email required" id="jform_contact_email" value="email"/>		
+		</div>
+        <div style="clear:both;"></div>
+		<div class="ctwfull"class="ffield">
+			<input type="text" name="jform[contact_subject]" id="jform_contact_emailmsg" value="subject" class="required"/>			
+		</div>
+		<div class="ctwfull"class="ffield">
+			<textarea name="jform[contact_message]" id="jform_contact_message" cols="150" rows="8" class="required"></textarea>			
+		</div>
+
+						
+			    			                                              	                     	    		
+		<div style="margin:-40px 0 5px 0;text-align:center; clear:both; ">
+			<div class="buttonMore">
+				<button class="button validate morebtn" type="submit">Send Email</button>
+				<input type="hidden" name="option" value="com_contact" />
+				<input type="hidden" name="task" value="contact.submit" />
+				<input type="hidden" name="return" value="" />
+				<input type="hidden" name="id" value="1:name" />
+				<input type="hidden" name="bf3a8e43a7390fcbce67298279e1a5e6" value="1" />		</div></div>
+</dl></fieldset>
+	</form>
+
+
+
+</div>
+<div style="clear:both;">
+</div>
+</div>
+
+	

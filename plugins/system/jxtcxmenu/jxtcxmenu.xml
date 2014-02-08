@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6.0" type="plugin" group="system" method="upgrade">
+	<name>JoomlaXTC xmenu</name>
+	<author>JoomlaXTC</author>
+	<creationDate>2012-06-11</creationDate>
+	<copyright>Copyright (C) 2009-2012 Monev Software LLC. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorUrl>http://www.joomlaxtc.com</authorUrl>
+	<version>1.6.2</version>
+	<description>JoomlaXTC Xmenu plugin</description>
+	<files>
+		<filename plugin="jxtcxmenu">jxtcxmenu.php</filename>
+		<filename>index.html</filename>
+		<filename>xmenu.css</filename>
+		<filename>COPYRIGHT.php</filename>
+		<filename>LICENSE.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="ulid" type="text" filter="RAW" default="" label="Menu HTML tag ID" description="A unique tag ID used for the menu as it appears in the template page source. Only the {xm} tags within this container will be processed. MUltiple containers can be separated by comma." />
+				<field name="keepdropline" type="radio" default="0" label="Keep drop lines" description="If enabled, droplines will be visible in the page title, breadcrumbs menus etc." >
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

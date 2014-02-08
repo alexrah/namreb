@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<extension type="module" version="1.6.0" method="upgrade">
+	<name>JoomlaXTC Socializer Module</name>
+	<author>JoomlaXTC</author>
+	<creationDate>2009-08-30</creationDate>
+	<copyright>Copyright (C) 2012 Monev Software LLC. All rights reserved.</copyright>
+	<authorUrl>http://www.joomlaxtc.com</authorUrl>
+	<version>1.0.0</version>
+	<description>JoomlaXTC Socializer Module - Visit www.joomlaxtc.com documents area for more help.</description>
+	<files>
+		<filename module="mod_jxtc_socializer">mod_jxtc_socializer.php</filename>
+		<filename>style.css</filename>
+		<folder>tmpl</folder>
+		<folder>images</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="set" type="list" default="s" label="Icon Set" description="Select the icon set to use.">
+					<option value="s">Standard</option>
+					<option value="t">Transparent</option>
+					<option value="m">Mini</option>
+				</field>
+
+				<field name="digg" type="radio" default="0" label="Enable Digg?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="digg_link" type="text" size="80" default="" label="Digg Link" description="Enter the URL to use for this icon."/>
+
+				<field name="dribbble" type="radio" default="0" label="Enable Dribbble?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="dribbble_link" type="text" size="80" default="" label="dribbble Link" description="Enter the URL to use for this icon."/>
+
+				<field name="facebook" type="radio" default="0" label="Enable facebook?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="facebook_link" type="text" size="80" default="" label="facebook Link" description="Enter the URL to use for this icon."/>
+
+				<field name="flickr" type="radio" default="0" label="Enable flickr?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="flickr_link" type="text" size="80" default="" label="flickr Link" description="Enter the URL to use for this icon."/>
+
+				<field name="forrst" type="radio" default="0" label="Enable forrst?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="forrst_link" type="text" size="80" default="" label="forrst Link" description="Enter the URL to use for this icon."/>
+
+				<field name="googleplus" type="radio" default="0" label="Enable Google+?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="googleplus_link" type="text" size="80" default="" label="Google+ Link" description="Enter the URL to use for this icon."/>
+
+				<field name="html5" type="radio" default="0" label="Enable HTML5?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="html5_link" type="text" size="80" default="" label="HTML5 Link" description="Enter the URL to use for this icon."/>
+
+				<field name="icloud" type="radio" default="0" label="Enable icloud?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="icloud_link" type="text" size="80" default="" label="icloud Link" description="Enter the URL to use for this icon."/>
+
+				<field name="lastfm" type="radio" default="0" label="Enable lastfm?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="lastfm_link" type="text" size="80" default="" label="lastfm Link" description="Enter the URL to use for this icon."/>
+
+				<field name="linkedin" type="radio" default="0" label="Enable linkedin?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="linkedin_link" type="text" size="80" default="" label="linkedin Link" description="Enter the URL to use for this icon."/>
+
+				<field name="myspace" type="radio" default="0" label="Enable myspace?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="myspace_link" type="text" size="80" default="" label="myspace Link" description="Enter the URL to use for this icon."/>
+
+				<field name="paypal" type="radio" default="0" label="Enable paypal?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="paypal_link" type="text" size="80" default="" label="paypal Link" description="Enter the URL to use for this icon."/>
+
+				<field name="picasa" type="radio" default="0" label="Enable picasa?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="picasa_link" type="text" size="80" default="" label="picasa Link" description="Enter the URL to use for this icon."/>
+
+				<field name="pinterest" type="radio" default="0" label="Enable pinterest?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="pinterest_link" type="text" size="80" default="" label="pinterest Link" description="Enter the URL to use for this icon."/>
+
+				<field name="reddit" type="radio" default="0" label="Enable reddit?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="reddit_link" type="text" size="80" default="" label="reddit Link" description="Enter the URL to use for this icon."/>
+
+				<field name="rss" type="radio" default="0" label="Enable rss?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="rss_link" type="text" size="80" default="" label="rss Link" description="Enter the URL to use for this icon."/>
+
+				<field name="skype" type="radio" default="0" label="Enable skype?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="skype_link" type="text" size="80" default="" label="skype Link" description="Enter the URL to use for this icon."/>
+
+				<field name="stumbleupon" type="radio" default="0" label="Enable stumbleupon?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="stumbleupon_link" type="text" size="80" default="" label="stumbleupon Link" description="Enter the URL to use for this icon."/>
+
+				<field name="tumblr" type="radio" default="0" label="Enable tumblr?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="tumblr_link" type="text" size="80" default="" label="tumblr Link" description="Enter the URL to use for this icon."/>
+
+				<field name="twitter" type="radio" default="0" label="Enable twitter?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="twitter_link" type="text" size="80" default="" label="twitter Link" description="Enter the URL to use for this icon."/>
+
+				<field name="vimeo" type="radio" default="0" label="Enable vimeo?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="vimeo_link" type="text" size="80" default="" label="vimeo Link" description="Enter the URL to use for this icon."/>
+
+				<field name="wordpress" type="radio" default="0" label="Enable wordpress?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="wordpress_link" type="text" size="80" default="" label="wordpress Link" description="Enter the URL to use for this icon."/>
+
+				<field name="yahoo" type="radio" default="0" label="Enable yahoo?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="yahoo_link" type="text" size="80" default="" label="yahoo Link" description="Enter the URL to use for this icon."/>
+
+				<field name="youtube" type="radio" default="0" label="Enable youtube?" description="Enable or disable this icon.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="youtube_link" type="text" size="80" default="" label="youtube Link" description="Enter the URL to use for this icon."/>
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="cache" type="list" default="1" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field name="cachemode" type="hidden" default="static">
+					<option value="static"></option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

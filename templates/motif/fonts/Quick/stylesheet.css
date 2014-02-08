@@ -1,0 +1,19 @@
+
+
+
+
+@font-face {
+
+font-family: 'Quick';
+
+src: url('Quick-webfont.eot');
+src: url('Quick-webfont.eot?#iefix') format('embedded-opentype'),
+url('Quick-webfont.woff') format('woff'),
+
+url('Quick-webfont.ttf') format('truetype'),
+url('Quick-webfont.svg#museo_300regular') format('svg');
+font-weight: normal;
+font-style: normal;
+
+
+}
