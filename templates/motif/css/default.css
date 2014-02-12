@@ -74,7 +74,7 @@ a.hideTxt, span.hideTxt {display:block;}
 /* ----------------------------------------------*/
 ul.suckerfish, ul.dropline, ul.dualfish {position:relative;list-style-type:none;z-index:99999999999999;margin:0;padding:0;}
 ul.suckerfish > li, ul.dropline > li, ul.dualfish > li {display:block;float:left;padding:0; }
-ul.suckerfish > li > a, ul.dropline > li > a, ul.dualfish > li > a {display:block;padding:14px 26px 14px 26px; margin-left:1px;}
+ul.suckerfish > li > a, ul.dropline > li > a, ul.dualfish > li > a {display:block;padding:14px 16px 14px 16px; margin-left:1px;}
 ul.suckerfish > ul > li > a, ul.dropline > ul > li > a, ul.dualfish > ul > li > a {display:block;}
 ul.dualfish > li > ul li > ul,ul.suckerfish > li > ul li > ul,ul.dropline > li > ul li > ul {visibility:hidden;}
 ul.suckerfish li.xtcHover > ul, ul.dropline li.xtcHover > ul, ul.dualfish li.xtcHover > ul,ul.suckerfish li > ul:hover, ul.dropline li > ul:hover, ul.dualfish li > ul:hover {visibility:visible;}
