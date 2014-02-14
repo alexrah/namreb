@@ -4,6 +4,7 @@ img{max-width:100%;}
 #header ul.menu > li > a:hover,#header ul.menu > li > a,#header ul.menu li.parent > ul > li,#header ul.menu li.parent > ul > li > a,.login_slide_btn,.logout_slide_btn,.search_menu_btn,.social a,.flatgreybutton,.bargraphv a,.circle1,.ca-main {-webkit-transition-property: color,background;-webkit-transition-duration: 0.15s, 0.15s;-webkit-transition-timing-function: ease-in, ease-out;-o-transition-property: color, background;-o-transition-duration: 0.15s, 0.15s;-o-transition-timing-function: ease-in, ease-out;-moz-transition-property: color, background;-moz-transition-duration: 0.15s, 0.15s;-moz-transition-timing-function: ease-in, ease-out;}
  
 
+
 /* CSS3 Responsive Breakpoints */
    @media screen and (max-width:1920px){}
   @media (max-width:1240px){.jxtc-hoverpad {padding:20px!important;}}
@@ -38,7 +39,7 @@ div.items-leading.xtc-leading.span12 div.span6 .category_text p {display:inline-
 .centerlarge .items-leading .span6{width:100%;margin-left:0;}
 .centerlarge .items-leading .span3{width:100%;}
 .centerlarge .items-leading div:first-child + div + div{margin-left:0;}
-.slidetitle1 {font-size:44px;}
+.slidetitle1 {font-size:34px;}
 .jxtc_newspro_testimonial_grid {width: 230px !important;height: 230px !important;}
 .testimonialwrap p {font-size:20px;}
 .newstext {padding:24px 24px 24px 24px !important;text-align:center;}
@@ -53,7 +54,7 @@ div.items-leading.xtc-leading.span12 div.span6 .category_text p {display:inline-
 .item-page.wtitle .article_text{padding:0 30px 0 0;}
 .item-page.wtitle #section-kmt {width:100%; margin-left:0;}
 #header ul.menu > li.active > a,#header ul.menu > li:hover > a,#header ul.menu > li > a{padding: 19px 14px 20px;}
-.slidetitle1 {font-size:38px;}
+.slidetitle1 {font-size:28px;}
 .slideintro {font-size:1.2em !important;}
 .diag {margin-bottom:45px;}
 .jxtc_newspro_testimonial_info h3 {padding-top:56px !important;}
@@ -129,6 +130,8 @@ body.frontpage #component{background:#eee; padding:30px;}
 #footerwrap .xtc-wrapper {padding-left:20px!important; padding-right:20px!important;}
 .formwrap, form#finder-search {width:95% !important; padding:12px !important;text-align:center:!important;}
 div.contact.row-fluid img {margin:30px 0 !important;}
+
+#right .module:first-child { margin-top: 0%; }
 }
 @media  all and (max-width: 768px/*) and (min-width: 480px*/) {
 }
