@@ -33,7 +33,7 @@
 /* ----Region4---------------------------*/
 #region4wrap .xtc-wrapperpad {width:auto!important;margin:0 auto;}
 #region4wrap .xtc-wrapper {max-width:<?php echo $params->wrapperwidth - (($params->r4left_right_pad) *2);?>px;
-padding-top:<?php echo $params->r4top_bottom_pad;?>px!important;padding-bottom:<?php echo $params->r4top_bottom_pad;?>20px!important;padding-left:<?php echo $params->r4left_right_pad;?>px!important;padding-right:<?php echo $params->r4left_right_pad;?>px!important;margin:0 auto;}
+padding-top:<?php echo $params->r4top_bottom_pad;?>px!important;padding-bottom:<?php echo $params->r4top_bottom_pad;?>px!important;padding-left:<?php echo $params->r4left_right_pad;?>px!important;padding-right:<?php echo $params->r4left_right_pad;?>px!important;margin:0 auto;}
 #region4.row-fluid{width:auto;}
 /* ----Region5---------------------------*/
 #region5wrap .xtc-wrapperpad {width:auto!important;margin:0 auto;}
@@ -85,8 +85,7 @@ margin:0 auto;}
 .r3spacer{padding-bottom:<?php echo $params->r3spacer;?>!important;}
 .r3spacer_top{padding:20px 0 0 0;}
 .r4spacer{padding:<?php echo $params->r4spacer;?>;}
-/* #region4 {min-height:200px !important;}\
- */
+#region4 {min-height:200px !important;}
 .r4spacer_top{padding:20px 0 0 0;}
 .r4spacer_top .modulecontent { text-align: center; }
 .r4spacer_top .modulecontent .xtcdefaultmenu { display: inline-flex; }
@@ -102,8 +101,6 @@ margin:0 auto;}
 .r9spacer_bottom{padding:<?php echo $params->r9spacer;?> 0 0 0;}
 /* ----Module Padding---------------------------*/
 .firstarea .module, #left .module:first-child, #right .module:first-child,#region4_banner .module:first-child{margin-top:0;}
-
-
 .center > div:first-child{padding-top:0;}
 /* Content Pages*/
 .row-fluid > .xtc-leading > div:first-child,.row-fluid > .xtc-leading > div:first-child+div,.row-fluid > .xtc-leading >div:first-child+div+div{margin-bottom:30px;}
@@ -244,9 +241,6 @@ span.caret{float:none!important;}
 #topbanner .module:first-child,#top .module:first-child,#inset .module:first-child,#showcasegrid .module:first-child,#left .module:first-child,#right .module:first-child,#left1 .module:first-child,#right1 .module:first-child,#left2 .module:first-child,#right2 .module:first-child,#left3 .module:first-child,#right3 .module:first-child,#left4 .module:first-child,#right4 .module:first-child,#left5 .module:first-child,#right5 .module:first-child,#left6 .module:first-child,#right6 .module:first-child,#left7 .module:first-child,#right7 .module:first-child,#left8 .module:first-child,#right8 .module:first-child,#newsflash .module:first-child,
 #banner1 .module:first-child,#breadsearch .module:first-child,#banner .module:first-child,
 .singlearea .module,.firstarea .module,#region1 .module:first-child{margin:0;}
-
-#right .module:first-child { margin-top: 120%; }
-
 /* ----------------------------------------------*/
 /* S 01 - Box Styles
 /* ----------------------------------------------*/
@@ -255,10 +249,10 @@ span.caret{float:none!important;}
 .box h3,.darkbox h3,.bluebox h3,.redbox h3,.greenbox h3,.orangebox h3,.purplebox h3,.tanbox h3,.stylebox h3{ background:none!important;border:none!important; }
 .darkbox{background:#222222;color:#fff;}
 .bluebox{background:#6c9eef;color:#fff;}
-.redbox{background:#a60b2d;color:#fff;}
+.redbox{background:#C7091F;color:#fff;}
 .greenbox{background:#b8d068;color:#fff;}
 .orangebox{background:#ff776d;color:#fff;}
-.purplebox{background:#7d8ade;color:#fff;}
+.purplebox{background:#c8718a;color:#fff;}
 .tanbox{background:#c0b69f;color:#fff;}
 .lightbox {background:#fff;color:#666;}
 .lightbox h3{background:none!important;border:none!important;}
@@ -401,7 +395,7 @@ div.slide-leftbox input.button, input.button {padding:12px 35px!important;font-w
 .testimonialbtmwrap { width: 0; height: 0; border-left: 15px solid transparent; border-right: 15px solid transparent;margin-bottom:5px; }
 .testimonial-posttext {text-align:center; font-size:1.6em; color:#999;letter-spacing:-1px; max-width:66%;}
 .slidetitle1 {font-size:53px;}
-.titleadjust {font-size:42px;}
+.titleadjust {font-size:38px;}
 .slideintro {font-size:1.3em !important; line-height:125% !important;max-width:63%; margin:12px 0 0 !important;}
 .memberinfo {text-align:center;display:none;}
 h4.news {text-transform:uppercase; font-size:3em !important;}

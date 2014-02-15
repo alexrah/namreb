@@ -117,6 +117,7 @@ h4.title{color:<?php echo $params->h4_color;?>;}
 /* ----------------------------------------------*/
 #menu {background: <?php echo $params->toplevelbgcolor;?>;}
 #menu .xmenu {color:#aaaaaa;}
+.sidemenu span { display: inline; float: right;}
 /* Top Level */
 #header ul.menu > li > a {color:<?php echo $params->topleveltxtcolor;?>; background-color: <?php echo $params->toplevelabgcolor;?>; border-top: 3px solid; border-bottom: 3px solid;  border-top-color:transparent; border-bottom-color:transparent;}
 #header ul.menu > li > a:hover,#header ul.menu > li.xtcHover a {color:<?php echo $params->topleveltxthovercolor;?>;background-color: <?php echo $params->toplevelahoverbgcolor;?>; border-top-color:<?php echo $params->basecolor5;?>;border-radius: 0; -moz-border-radius:0; -webkit-border-radius:0;}
@@ -157,7 +158,9 @@ h5.month{color:#333;}
 .article_header {background:#f7f7f7; border-bottom:1px solid #e6e6e6;border-left:1px solid #e6e6e6;border-right:1px solid #e6e6e6;}
 .article_date_pad{color:<?php echo $params->basecolor2;?>;}
 div.contact.row-fluid h3 {color:#333;}
-div.breadcrumbs a.pathway, div.breadcrumbs span.here {display:inline-block; padding-bottom:4px;color:#fff !important; color: rgba(255,255,255,0.75) !important;}
+div.breadcrumbs a.pathway, div.breadcrumbs span.here {
+visibility: hidden;
+display:inline-block; padding-bottom:4px;color:#fff !important; color: rgba(255,255,255,0.75) !important;}
 span.showHere {color:<?php echo $params->basecolor1;?>;}
 a.pathway {color:#fff!important;}
 span.here {color:#fff!important;}

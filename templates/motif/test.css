@@ -1,0 +1,23 @@
+#ciccio { margin: auto; }
+
+.ciccio { padding: 5%; }
+
+/** TABLE OF CONTENT */
+
+div { background-color: #2ba6cb; }
+
+@media screen and (max-width: 900px){
+  .ciccio { padding: 10%;
+    color: white;
+
+  }
+}
+
+
+@media (min-width: 350px){}
+
+  @media screen and (max-height: 200px)  {
+  div {top: 0px;}
+  }
+
+
