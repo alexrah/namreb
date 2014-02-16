@@ -154,7 +154,12 @@ div.itemHeader {}
 	div.itemHeader span.itemAuthor a {}
 	div.itemHeader span.itemAuthor a:hover {}
 
-div.itemToolbar {padding:2px 0;margin:16px 0 0 0;border-top:1px dotted #ccc;border-bottom:1px dotted #ccc;background:#f7fafe;}
+div.itemToolbar {
+padding:2px 0;margin:16px 0 0 0;
+/* border-top:1px dotted #ccc; */
+/* border-bottom:1px dotted #ccc; */
+background:#f7fafe;
+}
 	div.itemToolbar ul {text-align:right;list-style:none;padding:0;margin:0;}
 	div.itemToolbar ul li {display:inline;list-style:none;padding:0 4px 0 8px;margin:0;border-left:1px solid #ccc;text-align:center;background:none;font-size:12px;}
 	div.itemToolbar ul > li:first-child {border:none;} /* remove the first CSS border from the left of the toolbar */
@@ -172,7 +177,7 @@ div.itemToolbar {padding:2px 0;margin:16px 0 0 0;border-top:1px dotted #ccc;bord
 	div.itemToolbar ul li a.itemCommentsLink {}
 	div.itemToolbar ul li a.itemCommentsLink span {}
 	div.itemToolbar ul li a img {vertical-align:middle;}
-	div.itemToolbar ul li span.itemTextResizerTitle {}
+	div.itemToolbar ul li span.itemTextResizerTitle { float: none;  }
 	div.itemToolbar ul li a#fontDecrease {margin:0 0 0 2px;}
 	div.itemToolbar ul li a#fontDecrease img {width:13px;height:13px;background:url(../images/system/font_decrease.gif) no-repeat;}
 	div.itemToolbar ul li a#fontIncrease {margin:0 0 0 2px;}
@@ -202,9 +207,11 @@ div.itemFullText {}
 div.itemExtraFields {margin:16px 0 0 0;padding:8px 0 0 0;border-top:1px dotted #ddd;}
 	div.itemExtraFields h3 {margin:0;padding:0 0 8px 0;line-height:normal !important;}
 	div.itemExtraFields ul {margin:0;padding:0;list-style:none;}
-	div.itemExtraFields ul li {display:block;}
-	div.itemExtraFields ul li span.itemExtraFieldsLabel {display:block;float:left;font-weight:bold;margin:0 4px 0 0;width:30%;}
-	div.itemExtraFields ul li span.itemExtraFieldsValue {}
+	div.itemExtraFields ul li {display:table-row;}
+	div.itemExtraFields ul li span.itemExtraFieldsLabel {display:block;float:left;font-weight:bold;margin:0 0px 0 0;width:40%;}
+	div.itemExtraFields ul li span.itemExtraFieldsValue {
+  float:right; width:60%;
+  }
 
 div.itemContentFooter {display:block;text-align:right;padding:4px;margin:16px 0 4px 0;border-top:1px solid #ddd;color:#999;}
 	span.itemHits {float:left;}
