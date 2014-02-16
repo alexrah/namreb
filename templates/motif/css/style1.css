@@ -310,3 +310,13 @@ div.kmt-content p:after {border-color:transparent #fff;}
 @media (max-width: 767px) {
 body {background-position: 50% 0px !important;}
 }
+
+.hasTip .modal { 
+position: relative !important;
+margin: 0;
+left: 0;
+border: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+border-radius: 0;
+}
