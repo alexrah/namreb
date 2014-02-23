@@ -23,3 +23,12 @@
 2014-02-15T01:59:36+00:00	INFO	joomlafailure	Username e Password non coincidono o non hai ancora un account
 2014-02-16T01:15:40+00:00	INFO	joomlafailure	Username e Password non coincidono o non hai ancora un account
 2014-02-16T03:02:45+00:00	INFO	joomlafailure	Username e Password non coincidono o non hai ancora un account
+2014-02-17T09:50:43+00:00	INFO	joomlacanceled	
+2014-02-17T09:50:54+00:00	INFO	joomlacanceled	
+2014-02-17T09:51:08+00:00	INFO	joomlacanceled	
+2014-02-17T09:51:22+00:00	INFO	joomlafailure	Nome utente e password non corretti o non hai ancora un account.
+2014-02-17T09:51:59+00:00	INFO	joomlacanceled	
+2014-02-17T09:52:32+00:00	INFO	joomlafailure	Nome utente e password non corretti o non hai ancora un account.
+2014-02-17T09:52:41+00:00	INFO	joomlafailure	Nome utente e password non corretti o non hai ancora un account.
+2014-02-17T09:52:56+00:00	INFO	joomlafailure	Nome utente e password non corretti o non hai ancora un account.
+2014-02-17T11:06:30+00:00	INFO	joomlafailure	Username e Password non coincidono o non hai ancora un account
