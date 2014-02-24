@@ -119,6 +119,10 @@ h4.title{color:<?php echo $params->h4_color;?>;}
 #menu .xmenu {color:#aaaaaa;}
 .sidemenu span { display: inline; float: right;}
 .sidemenu li.active a {color: #08c; }
+.sidemenu li a {color: #292929; }
+.sidemenu li a:hover {color: #08c; }
+.sidemenu li span {color: #292929; }
+.sidemenu li span:hover {color: #08c; }
 /* Top Level */
 #header ul.menu > li > a {color:<?php echo $params->topleveltxtcolor;?>; background-color: <?php echo $params->toplevelabgcolor;?>; border-top: 3px solid; border-bottom: 3px solid;  border-top-color:transparent; border-bottom-color:transparent;}
 #header ul.menu > li > a:hover,#header ul.menu > li.xtcHover a {color:<?php echo $params->topleveltxthovercolor;?>;background-color: <?php echo $params->toplevelahoverbgcolor;?>; border-top-color:<?php echo $params->basecolor5;?>;border-radius: 0; -moz-border-radius:0; -webkit-border-radius:0;}
