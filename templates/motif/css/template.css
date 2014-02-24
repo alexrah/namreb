@@ -8,3 +8,8 @@
 ***   ( Remember: This Cascade Styles inherit styling defined previously)    ***
 ********************************************************************************
 *******************************************************************************/
+
+.item-page.wtitle .article_text{
+  background-color: white;
+}
+ul.pagenav { visibility: hidden; }
