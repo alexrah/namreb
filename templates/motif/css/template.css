@@ -13,3 +13,11 @@
   background-color: white;
 }
 ul.pagenav { visibility: hidden; }
+
+@media screen and (min-width: 900px){
+  .area_map{
+  width: 120%;
+  margin-left: -18.5%;
+  }
+}
+

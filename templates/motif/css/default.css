@@ -74,7 +74,7 @@ a.hideTxt, span.hideTxt {display:block;}
 /* ----------------------------------------------*/
 ul.suckerfish, ul.dropline, ul.dualfish {position:relative;list-style-type:none;z-index:99999999999999;margin:0;padding:0;}
 ul.suckerfish > li, ul.dropline > li, ul.dualfish > li {display:block;float:left;padding:0; }
-ul.suckerfish > li > a, ul.dropline > li > a, ul.dualfish > li > a {display:block;padding:14px 16px 14px 16px; margin-left:1px;}
+ul.suckerfish > li > a, ul.dropline > li > a, ul.dualfish > li > a {display:block;padding:14px 10px 14px 10px; margin-left:1px;}
 ul.suckerfish > ul > li > a, ul.dropline > ul > li > a, ul.dualfish > ul > li > a {display:block;}
 ul.dualfish > li > ul li > ul,ul.suckerfish > li > ul li > ul,ul.dropline > li > ul li > ul {visibility:hidden;}
 ul.suckerfish li.xtcHover > ul, ul.dropline li.xtcHover > ul, ul.dualfish li.xtcHover > ul,ul.suckerfish li > ul:hover, ul.dropline li > ul:hover, ul.dualfish li > ul:hover {visibility:visible;}
@@ -123,7 +123,7 @@ ul.imgmenu li{display:table-cell;}
 ul.imgmenu li:first-child{padding-left:0;}
 ul.imgmenu img{float:left;padding:0 12px 0 0;width:3em;}
 ul.imgmenu span.image-title{float:left; font-size:1em; display:inline-block; line-height:133%; }
-#header ul.menu > li.active > a,#header ul.menu > li:hover > a{padding: 14px 36px 16px;z-index:999999999999999999;position:relative;}
+#header ul.menu > li.active > a,#header ul.menu > li:hover > a{padding: 14px 10px 16px;z-index:999999999999999999;position:relative;}
 
 /* CSS3 SideMenu */
 .iconside{padding:0;width:89%;}
