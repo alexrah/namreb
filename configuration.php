@@ -30,7 +30,7 @@ class JConfig {
 	public $ftp_enable = '0';
 	public $offset = 'UTC';
 	public $mailer = 'mail';
-	public $mailfrom = 'alexrah@gmail.com';
+	public $mailfrom = 'webdandy@webdandy.tk';
 	public $fromname = 'Berman';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';

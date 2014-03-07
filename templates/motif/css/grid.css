@@ -372,7 +372,7 @@ div.slide-leftbox input.button, input.button {padding:12px 35px!important;font-w
 .ulogin2 {}	
 .jlogin1 {margin-bottom:16px;}
 .jlogin2 {margin-top:14px;color:#999;font-size:12px;}
-.jlogintext,.jlogintext a {margin:1px 1px 12px 0; font-size:12px;color:#fff!important;line-height:90%!important;}
+.jlogintext,.jlogintext a {margin:0px 0px 12px 0; font-size:12px;color:#fff!important;line-height:90%!important;}
 .logintext h2 {font-size:42px; color:#fff; margin-top:32px;}
 .logintext span {display:block;font-size:1em;margin:14px 0 24px!important;color:#fff;width:90%;}
 #modlgn-username,#modlgn-passwd {width:98%!important;padding-left:1%!important;padding-right:1%!important;text-align:center;}
@@ -418,7 +418,7 @@ div.row-fluid.lastrow {margin-bottom:0;}
 .circlebottom1 {-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;width:200px;height:200px;}
 .circlebottom2 {-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;width:200px;height:200px;}
 .gridgutter {display:table-cell;}
-.contactwrap {background:#fff!important;padding:40px;margin: 5% 9%;border-radius:4px;moz-border-radius:4px;webkit-border-radius:4px;border:1px solid #ccc;}
+.contactwrap {background:#fff!important;padding:40px;margin: 1% 0%;border-radius:4px;moz-border-radius:4px;webkit-border-radius:4px;border:1px solid #ccc;}
 .contactwrapleft {float:left;width:50%;}
 .contactwrapright {float:right;width:50%;}
 .contactwrap i {padding-top:2px;color:#888;}
