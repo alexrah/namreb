@@ -14,10 +14,19 @@
 }
 ul.pagenav { visibility: hidden; }
 
+#jform_spacer-lbl{ display: none; }
+
+#footerwrap a {
+  color: #08c;
+}
+
+
+
 @media screen and (min-width: 900px){
   .area_map{
   width: 120%;
   margin-left: -18.5%;
   }
 }
+
 

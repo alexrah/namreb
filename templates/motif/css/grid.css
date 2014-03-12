@@ -249,7 +249,8 @@ span.caret{float:none!important;}
 .box h3,.darkbox h3,.bluebox h3,.redbox h3,.greenbox h3,.orangebox h3,.purplebox h3,.tanbox h3,.stylebox h3{ background:none!important;border:none!important; }
 .darkbox{background:#222222;color:#fff;}
 .bluebox{background:#6c9eef;color:#fff;}
-.redbox{background:#C7091F;color:#fff;}
+/* .redbox{background:#C7091F;color:#fff;} */
+.redbox{background:#CB2135;color:#fff;}
 .greenbox{background:#b8d068;color:#fff;}
 .orangebox{background:#ff776d;color:#fff;}
 .purplebox{background:#c8718a;color:#fff;}

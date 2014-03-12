@@ -22,6 +22,7 @@
 				filter="string"
 				label="PLG_USER_PROFILE_FIELD_ADDRESS2_LABEL"
 				size="30"
+        class="validate-length11"
 			/>
 
 			<field

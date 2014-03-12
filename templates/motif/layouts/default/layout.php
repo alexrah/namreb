@@ -40,6 +40,8 @@ $document->addScript($xtc->templateUrl.'js/xtcMenu.js');
 $document->addScriptDeclaration("window.addEvent('load', function(){ xtcMenu(null, 'menu', 200, 50, 'h', new Fx.Transition(Fx.Transitions.Cubic.easeInOut), 90, false, false); });");
 // Get the Template General Scripts file
 //$document->addScript($xtc->templateUrl.'js/scripts.js');
+JHtml::script(JURI::base(). "plugins/user/profile/profiles/profile.js", $mootools= true)
+//
 ?>
 	<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
 	<script type="text/javascript">jQuery.noConflict();</script>

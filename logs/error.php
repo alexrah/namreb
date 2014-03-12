@@ -37,3 +37,6 @@
 2014-03-07T15:57:30+00:00	INFO	joomlafailure	Nome utente e password non corretti o non hai ancora un account.
 2014-03-07T15:57:34+00:00	INFO	joomlafailure	Nome utente e password non corretti o non hai ancora un account.
 2014-03-07T15:57:38+00:00	INFO	joomlafailure	Nome utente e password non corretti o non hai ancora un account.
+2014-03-10T15:55:30+00:00	INFO	joomlafailure	Nome utente e password non corretti o non hai ancora un account.
+2014-03-10T15:55:38+00:00	INFO	joomlafailure	Nome utente e password non corretti o non hai ancora un account.
+2014-03-10T15:55:44+00:00	INFO	joomlafailure	Nome utente e password non corretti o non hai ancora un account.
