@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+        <fields name="params" addfieldpath="/plugins/system/jl_popup_anywhere_pro/elements">
+                <fieldset name="popupanywhere-params" label="Popup Anywhere Params">
+                                <field type="spacer" name="-- SETTING --" class="jlspace"/>
+				<field name="selectpopup"
+					type="list"
+					default="0"
+					label="PLG_JL_POPUP_ANYWHERE_PRO_SELECT_POPUP_TYPE_LABEL"
+					description="PLG_JL_POPUP_ANYWHERE_PRO_SELECT_POPUP_TYPE_LABEL_DESC" >
+					<option value="0">PLG_JL_POPUP_ANYWHERE_PRO_SELECT_POPUP_URL_ARTICLE</option>
+					<option value="1">PLG_JL_POPUP_ANYWHERE_PRO_SELECT_POPUP_IMAGE</option>
+					<option value="2">PLG_JL_POPUP_ANYWHERE_PRO_SELECT_POPUP_MODULE</option>
+				</field>
+				<field name="link" type="text" default="" size="45" label="PLG_JL_POPUP_ANYWHERE_PRO_LINK_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_LINK_LABEL_DESC" />
+				<field name="insertid" type="addarticle" default="0" label="PLG_JL_POPUP_ANYWHERE_PRO_ARTICLE_LINK_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_ARTICLE_LINK_LABEL_DESC" />
+				<field name="image" type="media" label="PLG_JL_POPUP_ANYWHERE_PRO_IMAGE_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_IMAGE_LABEL_DESC" directory="" />
+				<field name="listmodule" type="module" label="PLG_JL_POPUP_ANYWHERE_PRO_MODULE_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_MODULE_LABEL_DESC"/>
+				<field name="addurl"
+					type="list"
+					class="jl_switch"
+					default="1"
+					label="PLG_JL_POPUP_ANYWHERE_PRO_ADD_URL_LABEL"
+					description="PLG_JL_POPUP_ANYWHERE_PRO_ADD_URL_LABEL_DESC" >
+					<option value="1">PLG_JL_POPUP_YES</option>
+					<option value="0">PLG_JL_POPUP_NO</option>
+				</field>
+
+                                <field type="spacer" name="-- CUSTOM PLUGIN --" class="jlspace"/>
+				<field name="popupwidth" type="text" default="500" label="PLG_JL_POPUP_ANYWHERE_PRO_WIDTH_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_WIDTH_LABEL_DESC"/>
+				<field name="popupheight" type="text" default="500" label="PLG_JL_POPUP_ANYWHERE_PRO_HEIGHT_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_HEIGHT_LABEL_DESC"/>
+				<field name="cookietime" type="text" default="0" label="PLG_JL_POPUP_ANYWHERE_PRO_LIVE_COOKIE_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_LIVE_COOKIE_LABEL_DESC"/>
+				<field name="type" type="list" default="2" label="PLG_JL_POPUP_ANYWHERE_PRO_LIST_TYPE_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_LIST_TYPE_LABEL_DESC">
+					  <option value="0">PLG_JL_POPUP_ANYWHERE_PRO_SESSION</option>
+					  <option value="1">PLG_JL_POPUP_ANYWHERE_PRO_COOKIE</option>
+					  <option value="2">PLG_JL_POPUP_ANYWHERE_PRO_ALWAYS</option>
+				</field>
+				<field directory="plugins/system/jl_popup_anywhere_pro/css" name="template" type="filelist" hide_default="true" filter="\.css" label="PLG_JL_POPUP_ANYWHERE_PRO_CSS_LAYOUT_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_CSS_LAYOUT_LABEL_DESC"/>
+				<field name="modaltype" type="list" default="0" label="PLG_JL_POPUP_ANYWHERE_PRO_TYPE_MODAL_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_TYPE_MODAL_LABEL_DESC">
+					  <option value="0">PLG_JL_POPUP_ANYWHERE_PRO_IFRAME</option>
+					  <option value="2">PLG_JL_POPUP_ANYWHERE_PRO_IMAGE</option>
+				</field>
+				<field name="closeafterseconds" type="text" default="0" label="PLG_JL_POPUP_ANYWHERE_PRO_CLOSE_MODAL_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_CLOSE_MODAL_LABEL_DESC" size="4"/>
+                                <field name="loadafterseconds" type="text" default="0" label="PLG_JL_POPUP_ANYWHERE_PRO_LOAD_MODAL_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_LOAD_MODAL_LABEL_DESC" size="4"/>
+				<field name="linkofimage" type="text" default="" label="PLG_JL_POPUP_ANYWHERE_PRO_LINKOFIMAGE_LABEL" size="45" description="PLG_JL_POPUP_ANYWHERE_PRO_LINKOFIMAGE_LABEL_DESC"/>
+				<field name="linktarget" type="list" default="0" label="PLG_JL_POPUP_ANYWHERE_PRO_TARGETLINK_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_TARGETLINK_LABEL_DESC">
+					  <option value="0">PLG_JL_POPUP_ANYWHERE_PRO_TARGETLINK_PARENT</option>
+					  <option value="1">PLG_JL_POPUP_ANYWHERE_PRO_TARGETLINK_NEWWINDOW</option>
+					  <option value="2">PLG_JL_POPUP_ANYWHERE_PRO_TARGETLINK_INPOPUP</option>
+				</field>
+				<field name="cursor" type="text" default="" label="PLG_JL_POPUP_ANYWHERE_PRO_CURSOR_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_CURSOR_LABEL_DESC"/>
+				<field name="closebutton" class="jl_switch" type="list" default="1" label="PLG_JL_POPUP_ANYWHERE_PRO_CLOSE_BUTTON_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_CLOSE_BUTTON_LABEL_DESC">
+					<option value="1">PLG_JL_POPUP_YES</option>
+					<option value="0">PLG_JL_POPUP_NO</option>
+				</field>
+				<field name="scrollbar" type="list" class="jl_switch" default="1" label="PLG_JL_POPUP_ANYWHERE_PRO_SCROLL_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_SCROLL_LABEL_DESC">
+					<option value="1">PLG_JL_POPUP_YES</option>
+					<option value="0">PLG_JL_POPUP_NO</option>
+				</field>
+                </fieldset>
+        </fields>
+</form>

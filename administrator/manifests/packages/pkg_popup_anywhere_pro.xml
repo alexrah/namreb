@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="1.7.0" method="upgrade">
+ 	<name>pkg_popup_anywhere_pro</name>
+	<creationDate>June 2013</creationDate>
+	<author>codextension</author>
+	<authorEmail>contact@codextension.com</authorEmail>
+	<authorUrl>http://codextension.com</authorUrl>
+	<packagename>popup_anywhere_pro</packagename>
+	<version>3.0.3</version>
+	<packager>codextension</packager>
+	<packagerurl>http://codextension.com</packagerurl>
+	<copyright>codextension.com</copyright>
+	<license>GNU/GPLv3 www.gnu.org/licenses/gpl-3.0.html</license>
+	<description>
+		<![CDATA[
+			<h2>Install Popup Anywhere Pro Plugin Successfull</h2>
+			<h2>Install Popup Anywhere Pro component Successfull</h2>
+			<p>
+				<i>This plugin allows you to select exactly where you want to display advertisement or anywhere you want</i>
+			</p>
+		]]>
+	</description>
+	
+	<files folder="packages">
+		<file type="plugin" id="jl_popup_anywhere_pro" group="system">plg_jl_popup_anywhere_pro_j3.0_v3.0.3.zip</file>		
+		<file type="component" id="com_popup_anywhere" client="site">com_popup_anywhere_j2.5_v2.5.0.zip</file>		
+	</files>
+	
+		
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.pkg_popup_anywhere_pro.ini</language>
+		<language tag="en-GB">en-GB/en-GB.pkg_popup_anywhere_pro.sys.ini</language>		
+	</languages>	
+</extension>

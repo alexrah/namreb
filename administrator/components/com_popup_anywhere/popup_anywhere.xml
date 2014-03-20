@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0" method="upgrade">
+    <name>com_popup_anywhere</name>
+    <creationDate>2013-05-25</creationDate>
+    <copyright>Copyright (C) 2013. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <author>codextension</author>
+    <authorEmail>contact@codextension.com</authorEmail>
+    <authorUrl>http://codextension.com</authorUrl>
+    <version>2.5.0</version>
+    <description></description>  
+    
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>popup_anywhere.php</filename>                
+    </files>
+    <languages folder="site">        
+		<language tag="en-GB">language/en-GB.com_popup_anywhere.ini</language>
+    </languages>
+    <administration>
+		<menu img="components/com_popup_anywhere/s_com_popup_anywhere.png">COM_POPUP_ANYWHERE</menu>
+        <files folder="administrator">
+            <filename>index.html</filename>
+			<filename>popup_anywhere.php</filename>
+			<filename>s_com_popup_anywhere.png</filename>	
+        </files> 
+		<languages folder="administrator">            
+			<language tag="en-GB">language/en-GB.com_popup_anywhere.ini</language>
+			<language tag="en-GB">language/en-GB.com_popup_anywhere.sys.ini</language>
+        </languages>
+    </administration>
+</extension>

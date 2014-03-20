@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+	<name>PLG_SYSTEM_POPUP_ANYWHERE</name>
+	<author>codextension</author>
+	<creationDate>28th May 2012</creationDate>
+	<copyright>Copyright (C) 2010-2012 codextension.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<authorEmail>contact@codextension.com</authorEmail>
+	<authorUrl>http://codextension.com</authorUrl>
+	<version>3.0.3</version>
+	<description><![CDATA[
+		<style>
+			.jl_description h3{
+				text-transform: uppercase;
+				margin: 20px 0px 10px 0px;
+			}
+			.jl_description img{
+				float:left;
+				margin:5px 10px 5px 0px;
+			}
+			.jl_description p,.jl_description li{
+				padding: 5px 5px 5px 30px;	
+				list-style: none outside none;		
+			}
+			
+			.jl_description ul.list-style li{
+				background:url(../plugins/system/jl_popup_anywhere_pro/admin/images/tick.png) 0px 6px no-repeat;
+				padding-left:30px;
+				line-height:15px;
+			}
+		</style>
+		<div class="jl_description">
+			<h3>Popup Anywhere Pro Version 3.0.3</h3>
+			<a href="http://codextension.com" target="_blank"><img src="../plugins/system/jl_popup_anywhere_pro/admin/images/popup_anywhere.png"></a>
+			<p>This plugin will show popup anywhere on your webpage.<br/>It help you easier to do an advertisement or a notification when customers/clients visits your website.
+			</p>
+			<br clear="both" />
+			<h3>Features</h3>
+			<ul class="list-style">
+				<li>Custom URL</li>
+				<li>Popup Embed Flash File</li>
+				<li>Popup Image</li>
+				<li>Popup a Article</li>
+				<li>Popup a Module</li>
+				<li>Popup a Module/Custom HTML</li>
+				<li>Multiple popup on multiple select list page</li>
+				<li>Call javascript in popup</li>
+				<li>Set width & height popup</li>
+				<li>Closed popup for a period determined</li>
+				<li>Show popup for a period determined</li>
+				<li>Option Style to display different for the various Popup layouts</li>
+			
+			</ul>
+			<h3>UPgrade versions</h3>
+			<p>
+				Your current versions is 3.0.3. <a target="_blank" href="http://codextension.com">Find our latest versions now</a>
+			</p>
+			<h3>Userful links</h3>
+			<ul>
+				<li>Video tutorials</li>
+				<li>Report bug</li>
+			</ul>
+			<h3>About codextension & copyright</h3>
+			<p>
+				Codextension is Professional Joomla Extensions provider.Upcoming, we will expand and develop the template.We are focused on creating unique, attractive and clean templates without loosing flexibility and simplicity of customization
+			</p>
+			Copyright 2004 - 2011 <a target="_blank" href="http://codextension.com">http://codextension.com</a>
+
+		</div>
+	]]>	</description>
+	<files>
+		<filename plugin="jl_popup_anywhere_pro">jl_popup_anywhere_pro.php</filename>
+		<folder>css</folder>
+		<folder>elements</folder>
+		<folder>js</folder>
+		<folder>admin</folder>
+		<filename>index.html</filename>		
+		<filename>LICENSE.txt</filename>		
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_jl_popup_anywhere_pro.ini</language>
+		<language tag="en-GB">en-GB.plg_system_jl_popup_anywhere_pro.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/plugins/system/jl_popup_anywhere_pro/elements">
+				<field type="spacer" name="-- SETTING --" class="jlspace"/>
+				<field name="selectpopup"
+					type="list"
+					default="0"
+					label="PLG_JL_POPUP_ANYWHERE_PRO_SELECT_POPUP_TYPE_LABEL"
+					description="PLG_JL_POPUP_ANYWHERE_PRO_SELECT_POPUP_TYPE_LABEL_DESC" >
+					<option value="0">PLG_JL_POPUP_ANYWHERE_PRO_SELECT_POPUP_URL_ARTICLE</option>
+					<option value="1">PLG_JL_POPUP_ANYWHERE_PRO_SELECT_POPUP_IMAGE</option>
+					<option value="2">PLG_JL_POPUP_ANYWHERE_PRO_SELECT_POPUP_MODULE</option>
+				</field>
+				<field name="link" type="text" default="" size="45" label="PLG_JL_POPUP_ANYWHERE_PRO_LINK_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_LINK_LABEL_DESC" />
+				<field name="insertid" type="addarticle" default="0" label="PLG_JL_POPUP_ANYWHERE_PRO_ARTICLE_LINK_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_ARTICLE_LINK_LABEL_DESC" />
+				<field name="image" type="media" label="PLG_JL_POPUP_ANYWHERE_PRO_IMAGE_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_IMAGE_LABEL_DESC" directory="" />
+				<field name="listmodule" type="module" label="PLG_JL_POPUP_ANYWHERE_PRO_MODULE_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_MODULE_LABEL_DESC"/>
+				<field name="addurl"
+					class="btn-group" type="radio"
+					default="1"
+					label="PLG_JL_POPUP_ANYWHERE_PRO_ADD_URL_LABEL"
+					description="PLG_JL_POPUP_ANYWHERE_PRO_ADD_URL_LABEL_DESC" >
+					<option value="1">PLG_JL_POPUP_YES</option>
+					<option value="0">PLG_JL_POPUP_NO</option>
+				</field>
+				<field name="enableNoConflict"
+					class="btn-group" type="radio"
+					default="0"
+					label="PLG_JL_POPUP_ANYWHERE_PRO_CONFLICT_LABEL"
+					description="PLG_JL_POPUP_ANYWHERE_PRO_CONFLICT_LABEL_DESC" >
+					<option value="1">PLG_JL_POPUP_YES</option>
+					<option value="0">PLG_JL_POPUP_NO</option>
+				</field>
+
+				<field type="spacer" name="-- CONFIG POPUP ASSIGNMENT --" class="jlspace"/>
+				<field name="allpage" class="btn-group" type="radio" default="1" label="PLG_JL_POPUP_ANYWHERE_PRO_SHOW_ALL_PAGE_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_SHOW_ALL_PAGE_LABEL_DESC">
+					<option value="1">PLG_JL_POPUP_YES</option>
+					<option value="0">PLG_JL_POPUP_NO</option>
+				</field>
+				<field name="menutype" class="jlmenu jlajax allow_single_deselect" type="menu" label="PLG_JL_POPUP_ANYWHERE_PRO_SELECT_MENU_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_SELECT_MENU_LABEL_DESC" multiple="multiple" size="10"/>
+				<field name="menuid" type="jlmenu" default="0" label="PLG_JL_POPUP_ANYWHERE_PRO_MENUITEMS_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_MENUITEMS_LABEL_DESC" />
+			</fieldset>
+			<fieldset name="advanced" label="JL_ADVANCED" addfieldpath="/plugins/system/jl_popup_anywhere_pro/elements">
+				<field type="spacer" name="-- CUSTOM PLUGIN --" class="jlspace"/>
+				<field name="popupwidth" type="text" default="500" label="PLG_JL_POPUP_ANYWHERE_PRO_WIDTH_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_WIDTH_LABEL_DESC"/>
+				<field name="popupheight" type="text" default="500" label="PLG_JL_POPUP_ANYWHERE_PRO_HEIGHT_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_HEIGHT_LABEL_DESC"/>
+				<field name="cookietime" type="text" default="0" label="PLG_JL_POPUP_ANYWHERE_PRO_LIVE_COOKIE_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_LIVE_COOKIE_LABEL_DESC"/>
+				<field name="type" type="list" default="0" label="PLG_JL_POPUP_ANYWHERE_PRO_LIST_TYPE_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_LIST_TYPE_LABEL_DESC">
+					  <option value="0">PLG_JL_POPUP_ANYWHERE_PRO_SESSION</option>
+					  <option value="1">PLG_JL_POPUP_ANYWHERE_PRO_COOKIE</option>
+					  <option value="2">PLG_JL_POPUP_ANYWHERE_PRO_ALWAYS</option>
+				</field>
+				<field directory="plugins/system/jl_popup_anywhere_pro/css" name="template" type="filelist" hide_default="true" filter="\.css" label="PLG_JL_POPUP_ANYWHERE_PRO_CSS_LAYOUT_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_CSS_LAYOUT_LABEL_DESC"/>
+				<field name="modaltype" type="list" default="0" label="PLG_JL_POPUP_ANYWHERE_PRO_TYPE_MODAL_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_TYPE_MODAL_LABEL_DESC">
+					  <option value="0">PLG_JL_POPUP_ANYWHERE_PRO_IFRAME</option>
+					  <option value="2">PLG_JL_POPUP_ANYWHERE_PRO_IMAGE</option>
+				</field>
+				<field name="closeafterseconds" type="text" default="0" label="PLG_JL_POPUP_ANYWHERE_PRO_CLOSE_MODAL_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_CLOSE_MODAL_LABEL_DESC" size="4"/>
+				<field name="loadafterseconds" type="text" default="0" label="PLG_JL_POPUP_ANYWHERE_PRO_LOAD_MODAL_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_LOAD_MODAL_LABEL_DESC" size="4"/>
+				<field name="linkofimage" type="text" default="" label="PLG_JL_POPUP_ANYWHERE_PRO_LINKOFIMAGE_LABEL" size="45" description="PLG_JL_POPUP_ANYWHERE_PRO_LINKOFIMAGE_LABEL_DESC"/>
+				<field name="linktarget" type="list" default="0" label="PLG_JL_POPUP_ANYWHERE_PRO_TARGETLINK_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_TARGETLINK_LABEL_DESC">
+					  <option value="0">PLG_JL_POPUP_ANYWHERE_PRO_TARGETLINK_PARENT</option>
+					  <option value="1">PLG_JL_POPUP_ANYWHERE_PRO_TARGETLINK_NEWWINDOW</option>
+					  <option value="2">PLG_JL_POPUP_ANYWHERE_PRO_TARGETLINK_INPOPUP</option>
+				</field>
+				<field name="cursor" type="text" default="" label="PLG_JL_POPUP_ANYWHERE_PRO_CURSOR_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_CURSOR_LABEL_DESC"/>
+				<field name="closebutton" class="btn-group" type="radio" default="1" label="PLG_JL_POPUP_ANYWHERE_PRO_CLOSE_BUTTON_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_CLOSE_BUTTON_LABEL_DESC">
+					<option value="1">PLG_JL_POPUP_YES</option>
+					<option value="0">PLG_JL_POPUP_NO</option>
+				</field>
+				<field name="scrollbar" class="btn-group" type="radio" default="1" label="PLG_JL_POPUP_ANYWHERE_PRO_SCROLL_LABEL" description="PLG_JL_POPUP_ANYWHERE_PRO_SCROLL_LABEL_DESC">
+					<option value="1">PLG_JL_POPUP_YES</option>
+					<option value="0">PLG_JL_POPUP_NO</option>
+				</field>
+				<field type="preview"/>
+			</fieldset>
+			<fieldset addfieldpath="plugins/system/jl_popup_anywhere_pro/admin/formfield" name="about" label="JL_ABOUT">
+				<field type="asset" name="asset" path="plugins/system/jl_popup_anywhere_pro/admin/"/>
+				<field type="about" name="about"  path="plugins/system/jl_popup_anywhere_pro/admin/images"  />
+			</fieldset>	
+		</fields>
+	</config>
+</extension>
