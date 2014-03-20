@@ -175,6 +175,7 @@ class plgUserProfile extends JPlugin
 		$form->loadFile('profile', false);
 
 		$fields = array(
+      'ThisorThat',
 			'address1',
 			'address2',
 			'city',

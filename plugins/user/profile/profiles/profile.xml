@@ -4,6 +4,14 @@
 		<fieldset name="profile"
 			label="PLG_USER_PROFILE_SLIDER_LABEL"
 		>
+
+
+<field name="ThisorThat" type="radio" label="ragione sociale" >
+ <option value="Azienda" class="required">Azienda</option>
+ <option value="Privato" class="required">Privato</option>
+</field>
+
+
 			<field
 				name="address1"
 				type="text"
