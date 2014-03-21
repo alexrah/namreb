@@ -178,7 +178,10 @@ dd {margin:0 0 3px 0; font-size:0.875em;}
 #users-profile-core dt, #users-profile-custom dt,.login label {float: left;line-height:30px;width: 12em; }
 label#password-lbl, label#username-lbl {padding-top:8px;}
 label#remember-lbl {line-height:24px;}
-form fieldset dt {clear: left;float: left;padding: 3px 0;width: 16em; margin-top:12px !important;}
+form fieldset dt {
+clear: left;float: left;padding: 3px 0;width: 16em; 
+/* margin-top:12px !important; */
+}
 span.star{color:#F00;}
 span.optional {font-size: 10px; font-weight:normal; text-transform:uppercase; color:#999;}
 label{
@@ -195,7 +198,9 @@ dt span.spacer{display:block;}
 label{margin:0;}
 select, input[type="file"]{height:auto;margin-bottom: 9px;}
 .ffield{clear:both;margin:0 0 9px 0;}
-.formwrap,form#finder-search {text-align:left; width:50%; padding:42px 42px 22px; background:#f7f7f7; border:5px solid #ffffff; outline:1px solid #f1f1f1; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
+.formwrap,form#finder-search {text-align:left; width:50%; padding:42px 42px 22px; background:#f7f7f7; border:5px solid #ffffff; 
+/* outline:1px solid #f1f1f1;  */
+-webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
 a#advanced-search-toggle {display:inline-block; margin: 16px 0 0 154px;}
 .formwrap ul {margin-top:12px;}
 .formwrap li {font-size:10px !important; text-transform:uppercase !important; list-style: inside; padding-top:4px;}
