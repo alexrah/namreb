@@ -20,6 +20,7 @@
 				filter="string"
 				label="PLG_USER_PROFILE_FIELD_ADDRESS1_LABEL"
 				size="30"
+        class="validate-length16"
 			/>
 
 			<field

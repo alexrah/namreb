@@ -20,6 +20,11 @@ ul.pagenav { visibility: hidden; }
   color: #08c;
 }
 
+#jform_profile_address1-lbl, #jform_profile_address2-lbl, #jform_profile_address1, #jform_profile_address2 {
+  display: none;
+}
+
+span.optional { display: none; }
 
 
 @media screen and (min-width: 900px){

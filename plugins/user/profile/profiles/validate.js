@@ -7,4 +7,15 @@ window.addEvent('domready', function() {
                 return false;
             }
     });
+
+    document.formvalidator.setHandler('length16',
+        function (value) {
+            if (value.length == 16) {
+                return true;
+            } else {
+                return false;
+            }
+    });
+
+
 });
