@@ -40,3 +40,4 @@
 2014-03-10T15:55:30+00:00	INFO	joomlafailure	Nome utente e password non corretti o non hai ancora un account.
 2014-03-10T15:55:38+00:00	INFO	joomlafailure	Nome utente e password non corretti o non hai ancora un account.
 2014-03-10T15:55:44+00:00	INFO	joomlafailure	Nome utente e password non corretti o non hai ancora un account.
+2014-03-21T17:31:29+00:00	INFO	gmailfailure	Autenticazione fallita: Accesso negato
