@@ -1,0 +1,14 @@
+<table id="table">
+  <tr>
+    <th>CLIENTE</th>
+    <th>ANNO</th>
+    <th>DATA</th>
+  </tr>
+ {{#stripes rows}}
+  <tr id="listStripes" class="{{stripeClass}}">
+      <td>{{CLIENTE}}</td>
+      <td>{{ANNO}}</td>
+      <td>{{DATA}}</td>
+    </tr>
+    {{/stripes}}
+</table>
