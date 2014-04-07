@@ -1,0 +1,240 @@
+CLIENTE,PROVINCIA,MODELLO,REGIONE
+Casa di Cura privata Di Lorenzo Avezzano (AQ),AQ,Serie TD,ABRUZZO
+Ospedale Regionale San Salvatore L'Aquila,AQ,Serie AR,ABRUZZO
+Casa di Cura Villa Pini d'Abruzzo Chieti,CH,Serie TD,ABRUZZO
+Ospedale Civile San Liberatore Atri (TE),TE,Serie TL,ABRUZZO
+Ospedale Beato Angelico Acri (CS),CS,Serie TL,CALABRIA
+Ospedale Giovanni Paolo II Lamezia Terme (CZ),CZ,Serie TL,CALABRIA
+Casa di Cura Villa Aurora Reggio Calabria,RC,Serie TD,CALABRIA
+Ospedale Bianco e Melacrino Morelli Reggio Calabria,RC,Serie AR,CALABRIA
+Azienda Ospedaliera San Giuseppe Moscati Avellino,AV,Serie TL,CAMPANIA
+Ospedale Sacro Cuore di Gesù Fatebenefratelli Benevento,BN,Serie TL,CAMPANIA
+Ospedale Civile di Caserta,CE,Serie TL,CAMPANIA
+Ospedale di Teano (CE),CE,Serie TL,CAMPANIA
+Montecatone Rehabilitation Institute
+Imola (BO),BO,Serie TL,EMILIA ROMAGNA
+Ospedale Bellaria
+Bologna,BO,Serie TD,EMILIA ROMAGNA
+Ospedale Civile di Vergato (BO),BO,Serie AR,EMILIA ROMAGNA
+Ospedale di Porretta Terme (BO),BO,Serie TD,EMILIA ROMAGNA
+Ospedale SS. Salvatore
+San Giovanni in Persiceto (BO),BO,Serie AR,EMILIA ROMAGNA
+Villa Torri Hospital
+Bologna,BO,Serie AR,EMILIA ROMAGNA
+Arcispedale Sant'Anna Nuovo Ospedale di Cona (FE),FE,Serie TL,EMILIA ROMAGNA
+Casa di Cura privata Hesperia Hospital
+Modena,MO,Serie TD,EMILIA ROMAGNA
+Istituto Casa di Riposo San Giuseppe
+Fanano (MO),MO,Serie TD,EMILIA ROMAGNA
+Ospedale di Mirandola (MO),MO,Serie TD,EMILIA ROMAGNA
+Ospedale di Pavullo nel Frignano (MO),MO,Serie TD,EMILIA ROMAGNA
+Ospedale Ramazzini
+Carpi (MO),MO,Serie TD,EMILIA ROMAGNA
+Azienda Ospedaliero-Universitaria
+Parma,PR,Serie TD,EMILIA ROMAGNA
+Ospedale di Guastalla (RE),RE,Serie TD,EMILIA ROMAGNA
+Ospedale Franchini
+Montecchio Emilia (RE) ,RE,Serie TD,EMILIA ROMAGNA
+Centro medico polispecialistico privato Nuova Ricerca 
+Rimini,RN,Serie TD,EMILIA ROMAGNA
+Ospedale Infermi
+Rimini,RN,Serie AR,EMILIA ROMAGNA
+Ospedale Civile di Gorizia,GO,Serie TL,FRIULI VENEZIA GIULIA
+Azienda Ospedaliero-Universitaria Ospedali Riuniti
+Ospedale Cattinara
+Trieste,TS,Serie TL,FRIULI VENEZIA GIULIA
+IRCCS Materno Infantile Burlo Garofolo
+Trieste,TS,Serie TD,FRIULI VENEZIA GIULIA
+Ospedale Santa Maria della Misericordia
+Udine,UD,Serie TL,FRIULI VENEZIA GIULIA
+Casa di Cura privata Città di Aprilia 
+Aprilia (LT),LT,Serie TD,LAZIO
+Ospedale San Giovanni di Dio
+Fondi (LT),LT,Serie TL,LAZIO
+Ospedale San Camillo de Lellis
+Rieti,RI,Serie TD,LAZIO
+Aurelia Hospital
+Roma,RM,Serie TD,LAZIO
+Casa di Cura Città di Roma
+Roma,RM,Serie AR,LAZIO
+Casa di Cura Villa Benedetta
+Roma,RM,Serie TL,LAZIO
+Ospedale Coniugi Bernardini
+Palestrina (RM),RM,Serie AR,LAZIO
+Ospedale Generale Madre Giuseppina Vannini
+Roma,RM,Serie TD,LAZIO
+Ospedale S. Andrea 
+Roma,RM,Serie TD,LAZIO
+Ospedale San Giovanni Evangelista 
+Tivoli (RM),RM,Serie TD,LAZIO
+Ospedale San Paolo 
+Civitavecchia (RM),RM,Serie TD,LAZIO
+Ospedale Sandro Pertini 
+Roma,RM,Serie TD,LAZIO
+Ospedale Sant'Eugenio
+Roma,RM,Serie AR,LAZIO
+Policlinico Umberto I°
+Roma,RM,Serie TD,LAZIO
+Azienda Ospedaliera Villa Scassi
+Genova Sampierdarena ,GE,Serie TL,LIGURIA
+Casa di Cura Villa Montallegro
+Genova,GE,Serie TD,LIGURIA
+IRCCS Azienda Ospedaliero Universitaria San Martino
+Genova,GE,Serie TL,LIGURIA
+Istituto Giannina Gaslini
+Genova,GE,Serie TL,LIGURIA
+Ospedale Evangelico Internazionale 
+Genova,GE,Serie TD,LIGURIA
+Ospedale di Imperia,IM,Serie TL,LIGURIA
+Ospedale di Sanremo (IM),IM,Serie TL,LIGURIA
+Azienda Ospedaliera Beato Giovanni XXIII 
+Bergamo,BG,Serie TD,LOMBARDIA
+Azienda Ospedaliera Bolognini 
+Ospedale di Seriate (BG),BG,Serie TL,LOMBARDIA
+Azienda Ospedaliera Bolognini 
+Ospedale SS Capitanio e Gerosa
+Lovere (BG),BG,Serie TL,LOMBARDIA
+Azienda Ospedaliera 
+Spedali Civili di Brescia,BS,Serie TD,LOMBARDIA
+Azienda Ospedaliera Spedali Civili di Brescia
+Ospedale di Gardone Valtrompia (BS),BS,Serie TL,LOMBARDIA
+Azienda Sanitaria Locale Vallecamonica-Sebino 
+Ospedali di Edolo ed Esine (BS),BS,Serie TD,LOMBARDIA
+Residenza Angelo Maj Fondazione ONLUS
+Darfo Boario Terme (BS),BS,Serie TD,LOMBARDIA
+Centro Neuropsichiatrico Infantile Villa Santa Maria 
+Tavernerio (CO),CO,Serie TD,LOMBARDIA
+Ospedale Fatebenefratelli
+Erba (CO),CO,Serie TD,LOMBARDIA
+Ospedale San Leopoldo Mandic 
+Merate (LC),LC,Serie TD,LOMBARDIA
+Azienda Ospedaliera San Gerardo
+Monza,MB,Serie AR,LOMBARDIA
+Casa di riposo Residenza Anni Azzurri 
+Monza,MB,Serie TD,LOMBARDIA
+Azienda Ospedaliera di Legnano (MI) 
+Ospedale G. Fornaroli 
+Magenta (MI) ,MI,Serie TL,LOMBARDIA
+Azienda Ospedaliera Fatebenefratelli e Oftalmico
+Milano,MI,Serie TD,LOMBARDIA
+Azienda Ospedaliera
+Nuovo Ospedale civile di Legnano (MI),MI,Serie TD,LOMBARDIA
+Azienda Ospedaliera Ospedale L. Sacco
+Milano,MI,Serie TL,LOMBARDIA
+Azienda Ospedaliera Polo Universitario San Paolo
+Milano,MI,Serie AR,LOMBARDIA
+Casa di Cura Igea 
+Milano,MI,Serie TD,LOMBARDIA
+Casa di Cura privata del Policlinico
+Milano,MI,Serie TL,LOMBARDIA
+Clinica Donati
+Milano,MI,Serie AR,LOMBARDIA
+Fondazione I.R.C.C.S. Istituto Nazionale dei Tumori 
+Milano,MI,Serie TD,LOMBARDIA
+IRCCS Centro Cardiologico Monzino
+Milano,MI,Serie TL,LOMBARDIA
+Istituti Clinici di Perfezionamento
+Ospedale Città di S. S. Giovanni (MI),MI,Serie TD,LOMBARDIA
+Istituto Clinico Humanitas 
+Rozzano (MI),MI,Serie TD,LOMBARDIA
+Fondazione IRCCS Policlinico San Matteo
+Pavia,PV,Serie TL,LOMBARDIA
+IRCCS Fondazione Casimiro Mondino
+Pavia,PV,Serie TL,LOMBARDIA
+Ospedale Eugenio Morelli
+Sondalo (SO),SO,Serie TL,LOMBARDIA
+Casa di Cura e poliambulatorio Fondazione Gaetano e Piera Borghi 
+Brebbia (VA),VA,Serie TD,LOMBARDIA
+Ospedale di Circolo e Fondazione Macchi 
+Ospedale Filippo Del Ponte
+Varese,VA,Serie TL,LOMBARDIA
+Ospedale di Circolo e Fondazione Macchi
+Nuovo Ospedale di Varese,VA,Serie TD,LOMBARDIA
+Casa di Cura Privata Villa Igea 
+Ancona,AN,Serie TD,MARCHE
+Casa di Cura privata Stella Maris 
+San Benedetto del Tronto (AP),AP,Serie TD,MARCHE
+Casa di Cura privata Villa Anna
+S. Benedetto del Tronto (AP),AP,Serie AR,MARCHE
+Ospedale Madonna del Soccorso
+San Benedetto del Tronto (AP),AP,Serie AR,MARCHE
+Ospedale di San Severino Marche (MC),MC,Serie AR,MARCHE
+Ospedale Santa Croce 
+Fano (PU),PU,Serie TL,MARCHE
+Ospedale Santo Spirito
+Casale Monferrato (AL),AL,Serie TL,PIEMONTE
+Azienda Ospedaliero Universitaria Città della Salute e della Scienza
+C.T.O. Centro Traumatologico Ortopedico
+Torino,TO,Serie TL,PIEMONTE
+Casa di Cura Cellini 
+Torino,TO,Serie TD,PIEMONTE
+Ospedale San Giovanni Bosco
+Torino,TO,Serie TL,PIEMONTE
+IRCCS Ospedale Oncologico
+Bari,BA,Serie TL,PUGLIA
+Ospedale Caduti di tutte le guerre
+Canosa di Puglia (BAT),BAT,Serie TL,PUGLIA
+Ospedale Camberlingo
+Francavilla Fontana (BR),BR,Serie TL,PUGLIA
+Ospedale Ferrari
+Casarano (LE),LE,Serie TL,PUGLIA
+Ospedale Ignazio Veris Delli Ponti
+Scorrano (LE),LE,Serie TL,PUGLIA
+Ospedale Sacro Cuore di Gesù
+Gallipoli (LE),LE,Serie TL,PUGLIA
+Ospedale Vito Fazzi
+Lecce,LE,Serie AR,PUGLIA
+Casa di Cura Lay
+Cagliari,CA,Serie TL,SARDEGNA
+Policlinico di Monserrato (CA),CA,Serie TD,SARDEGNA
+Ospedale Giovanni Paolo II
+Olbia,OT,Serie AR,SARDEGNA
+Azienda Ospedaliera per l'Emergenza Cannizzaro
+Catania,CT,Serie TD,SICILIA
+Azienda Ospedaliero Universitaria Policlinico - Vittorio Emanuele
+Catania,CT,Serie TL,SICILIA
+Ospedale San Giovanni di Dio e Sant'Isidoro
+Giarre (CT),CT,Serie TL,SICILIA
+Azienda Ospedaliera Papardo-Piemonte 
+Messina,ME,Serie TD,SICILIA
+Ospedale Cutroni Zodda
+Barcellona Pozzo di Gotto (ME),ME,Serie TL,SICILIA
+Ospedale San Vincenzo
+Taormina (ME),ME,Serie TL,SICILIA
+Ospedale G. di Maria
+Avola (SR),SR,Serie AR,SICILIA
+Ospedale G. Trigona
+Noto (SR),SR,Serie TD,SICILIA
+Azienda Ospedaliero-Universitaria Careggi 
+Firenze,FI,Serie TD,TOSCANA
+Nuovo Ospedale del Mugello 
+Borgo San Lorenzo (FI),FI,Serie TD,TOSCANA
+Ospedale Santa Maria Annunziata
+Firenze,FI,Serie TD,TOSCANA
+Ospedale Civile di Castel del Piano (GR),GR,Serie AR,TOSCANA
+Ospedale Misericordia
+Grosseto,GR,Serie TD,TOSCANA
+Ospedale S. Andrea 
+Massa Marittima (GR),GR,Serie TD,TOSCANA
+Azienda Sanitaria dell'Alto Adige 
+Ospedale di Bolzano,BZ,Serie TD,TRENTINO-ALTO ADIGE
+Azienda Ospedaliero Universitaria Santa Maria della Misericordia
+Perugia,PG,Serie TL,UMBRIA
+Nuovo Ospedale San Giovanni Battista
+Foligno (PG),PG,Serie TL,UMBRIA
+Azienda Ospedaliera Santa Maria
+Terni,TR,Serie TL,UMBRIA
+Istituto Clinico Valle d'Aosta ISAV 
+Saint Pierre (AO),AO,Serie TD,VALLE D'AOSTA
+Azienda ULSS  9 
+Ospedale di Treviso,TV,Serie AR,VENETO
+Residenza Monte Crocetta IPAB 
+Vicenza,VI,Serie TD,VENETO
+Azienda Ospedaliero-Universitaria Integrata 
+Ospedale Borgo Trento 
+Verona,VR,Serie TD,VENETO
+Ospedale Madre Teresa di Calcutta
+Tirana - Albania,(AL),Serie TL,ALBANIA
+Clinica Galinos 
+Atene - Grecia,(GR),Serie AR,GRECIA
+Ospedale di Stato della Repubblica di San Marino,(RSM),Serie TD,REP. SAN MARINO
