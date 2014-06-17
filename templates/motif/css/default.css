@@ -258,6 +258,11 @@ ul.dualfish li ul.dualfish li a{padding:0px 15px 0px 15px;margin:0!important;}
 ul.suckerfish li ul.suckerfish li a{padding:0px 12px 0px 15px!important;}
 ul.dropline li ul.dropline li a{padding:2px 15px 12px 15px!important;}
 .circlebottom2_info a{display:block;height:150px;width:150px;}
+.btn-primary { color: #333; }
+.login-greeting { 
+  text-transform: uppercase;
+  color: white;
+}
 
 
 
